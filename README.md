@@ -1,7 +1,7 @@
 
 STRUCTURE:
 
-The final results can be found in the extracted_data.txt file
+The final results can be found in the sec\mining\extracted_data.txt file
 
 'litigations' is a django app that enables the database connection (https://www.djangoproject.com/)
 
