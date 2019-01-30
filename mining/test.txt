@@ -1,0 +1,338 @@
+Jan. 29, 2019
+Jan. 17, 2019
+Daniel H. Glick, et al.
+Oleksandr Ieremenko, Sungjin Cho, David Kwon, Igor Sabodakha, Victoria Vorochek, Ivan Olefir, Andrey Sarafanov, Capyield Systems Ltd., Spirit Trade Ltd.
+LR-24386
+LR-24381
+6
+6
+6
+-----------------
+{'content': 'On January 4, 2019, the United States District Court for the '
+            'Northern District of Illinois entered a final judgment by default '
+            'against relief defendant Edward H. Forte in an SEC enforcement '
+            'action.  In March 2017, the Commission charged Daniel H. Glick, a '
+            'Chicago-based investment adviser, and his unregistered investment '
+            'advisory firm, Financial Management Strategies Inc. (FMS), with '
+            'misappropriating millions from elderly investors.  The complaint '
+            'named Forte as a relief defendant, alleging that he received more '
+            'than $1 million of the money that had been misappropriated from '
+            'Glick.\n'
+            "According to the SEC's complaint, Glick and FMS provided clients "
+            "with false account statements that hid Glick's improper use of "
+            'client funds to pay personal expenses and his improper transfers '
+            'of funds to Forte and another individual.  The SEC further '
+            'alleged that Glick sent more than $1 million to Forte or to '
+            "third-parties for Forte's benefit.\n"
+            'The final judgment against Forte orders him to pay disgorgement '
+            'of $1,013,637, representing money he received as a result of '
+            "Glick's and FMS's violations alleged in the Complaint, along with "
+            'prejudgment interest of $30,633, for a total of $1,044,270.\n'
+            'On January 9, 2018, Glick pled guilty to one count of wire fraud '
+            'in a related criminal action, United States v. Daniel Glick, No. '
+            '17-CR-739.  On April 17, 2018, Glick was sentenced to 151 months '
+            'imprisonment, and ordered to pay $5.2 million in restitution.  '
+            'The criminal case arises from substantially the same conduct '
+            "alleged in the SEC's enforcement action.  On September 19, 2018, "
+            'the Court in the SEC action entered final judgments against '
+            'Glick, FMS and relief defendant Glick Accounting Services, Inc. '
+            '(GAS), which included permanent injunctions against Glick and FMS '
+            'and repatriation orders against Glick, FMS and GAS.\n'
+            'For additional information about the SEC action, see the March '
+            '29, 2017, April 13, 2017 and April 23, 2018 litigation releases.\n'
+            'For additional information about the criminal action, see the '
+            'November 21, 2017 and January 22, 2018 litigation releases.',
+ 'date': datetime.date(2019, 1, 29),
+ 'h1s': ['Relief Defendant in Fraud Case Against Illinois Investment Adviser '
+         'Is Ordered to Pay More Than $1 Million'],
+ 'h2s': ['Litigation Release No. 24386 / January 29, 2019',
+         'SEC v. Daniel H. Glick, et al., No. 17-CV-2251 (N.D. Ill.)'],
+ 'references_names': ['March 29, 2017',
+                      'April 13, 2017',
+                      'April 23, 2018',
+                      'November 21, 2017',
+                      'January 22, 2018'],
+ 'references_urls': ['https://www.sec.gov/litigation/litreleases/2017/lr23794.htm',
+                     'https://www.sec.gov/litigation/litreleases/2017/lr23803.htm',
+                     'https://www.sec.gov/litigation/litreleases/2018/lr24118.htm',
+                     'https://www.sec.gov/litigation/litreleases/2017/lr23995.htm',
+                     'https://www.sec.gov/litigation/litreleases/2018/lr24029.htm'],
+ 'release_no': 'LR-24386',
+ 'respondents': 'Daniel H. Glick, et al.'}
+{'content': 'The Securities and Exchange Commission announced that it filed '
+            'charges against Texas resident and real estate developer Phillip '
+            'Michael Carter, two other individuals, and several related '
+            'entities for conducting a multi-million dollar offering fraud.\n'
+            "The SEC's complaint alleges that Carter, along with Bobby Eugene "
+            'Guess and Richard Tilford, raised almost $45 million from over '
+            '270 investors across the United States by selling short-term, '
+            'high-yield promissory notes issued by a number of shell companies '
+            'intentionally named to confuse investors. The complaint alleges '
+            'that Carter, Guess, and Tilford claimed to offer investments in '
+            "Carter's legitimate real estate development companies, which were "
+            'purportedly backed by hard assets from actual real estate '
+            'development projects.  Instead, the complaint alleges, the '
+            'individual defendants sold securities issued by unrelated, but '
+            'closely-named, entities that had no assets.  Carter then '
+            'misappropriated investor funds to pay $1.2 million towards a '
+            'personal IRS tax lien, operate a luxury hunting ranch, fund his '
+            'lifestyle, and make over $3 million in Ponzi payments to '
+            'investors. \n'
+            "The SEC's complaint charges Carter, individually and d/b/a North "
+            'Forty Development Capital Account, with violating the antifraud '
+            'provisions of Section 17(a) of the Securities Act of 1933 and '
+            'Section 10(b) of the Securities Exchange Act of 1934 and Rule '
+            '10b-5 thereunder.\n'
+            ' \n'
+            '      The complaint also charges Guess, Tilford, North Forty '
+            'Development LLC, Texas Cash Cow, LLC f/k/a Texas Cash Cow '
+            'Investments, LLC, and Texas First Financial, LLC, with violating '
+            'the antifraud provisions of Section 17(a)(2) of the Securities '
+            'Act and Section 10(b) of the Exchange Act and Rule 10b-5(b) '
+            'thereunder. The complaint charges all the defendants with '
+            'violating the registration provisions of Sections 5(a) and 5(c) '
+            'of the Securities Act. Separately, Guess and Tilford are also '
+            'charged with violating the broker-dealer registration provisions '
+            'of Section 15(a) of the Exchange Act. The SEC is seeking relief '
+            'from the defendants in the form of permanent injunctions and '
+            'conduct-based injunctions, disgorgement, prejudgment interest, '
+            'and civil penalties.  The SEC is also requesting disgorgement and '
+            'prejudgment interest from the four relief defendants.  The SEC '
+            "also requested that the Court freeze Carter's assets, order him "
+            'to give an accounting, and issue him a document preservation '
+            'order.\n'
+            'In related criminal proceedings pursued by the Texas State '
+            'Securities Board, Carter and Tilford were indicted on November 6, '
+            '2018, for, among other things, securities fraud, sales of '
+            'unregistered securities, and sales of securities by an '
+            'unregistered agent or dealer. Those charges remain pending.\n'
+            "The SEC's investigation was conducted by Jason A. Braun and "
+            'Michelle Lama, and supervised by Jim Etri, B. David Fraser, and '
+            'Eric R. Werner.  The litigation is being conducted by Matt '
+            'Gulde.  The SEC acknowledges the assistance and cooperation of '
+            'the Texas State Securities Board.',
+ 'date': datetime.date(2019, 1, 29),
+ 'h1s': ['SEC Emergency Action Charges Texas Real Estate Developer for '
+         'Multi-Million Dollar Offering Fraud'],
+ 'h2s': ['Litigation Release No. 24385 / January 29, 2019',
+         'Securities and Exchange Commission v. Phillip Michael Carter, '
+         'individually and d/b/a North Forty Development Capital Account, '
+         'Bobby Eugene Guess, Richard Gregory Tilford, North-Forty '
+         'Development, LLC, North Forty Development LLC, Texas Cash Cow, LLC '
+         'f/k/a Texas Cash Cow Investments, LLC, and Texas First Financial, '
+         'LLC, Defendants, and Frisco Wade Crossing Development Partners, LLC, '
+         'McKinney Executive Suites at Crescent Parc Development Partners, '
+         'LLC, Christian Custom Homes LLC, and Double Droptine Ranch, LLC, '
+         'Relief Defendants, No. 3:19-cv-00206-K (N.D. Tex., filed January 25, '
+         '2019)'],
+ 'references_sidebar_names': ['SEC Complaint'],
+ 'references_sidebar_urls': ['https://www.sec.gov/litigation/complaints/2019/comp24385.pdf'],
+ 'release_no': 'LR-24385',
+ 'respondents': 'Phillip Michael Carter, et al.'}
+{'content': 'On January 24, 2019, the Honorable Kimba M. Wood of the United '
+            'States District Court for the Southern District of New York '
+            'entered judgments against a Manhattan-based lending company, '
+            'American Growth Funding II, LLC ("AGF II"), and its owner Ralph '
+            'C. Johnson, who were charged by the SEC in February 2016 with '
+            "lying to investors who purchased AGF II's high-yield securities.\n"
+            "The SEC's complaint alleged, among other things, that between "
+            'March 2011 and December 2013, AGF II and Johnson falsely claimed '
+            "that AGF II's financial statements were being audited each year.  "
+            'The complaint also alleged that AGF II made misrepresentations in '
+            'its offering documents about its management and concealed details '
+            'about deteriorating loan values that could imperil full payment '
+            'of the promised returns to investors.\n'
+            "Without admitting or denying the allegations in the SEC's "
+            'complaint, AGF II and Johnson consented to the entry of judgments '
+            'permanently enjoining them from violating the antifraud '
+            'provisions of Section 17(a) of the Securities Act of 1933 and '
+            'Section 10(b) and Rule 10b-5 thereunder of the Securities '
+            'Exchange Act of 1934.  In addition, the judgment against Johnson '
+            'requires that he pay a penalty in the amount of $75,000 and '
+            'disgorgement of his ill-gotten gains and prejudgment interest.  '
+            'Under the order, the amount of disgorgement will be decided at a '
+            'later time, no later than 30 days, either by agreement of the '
+            'parties or by referral to a magistrate judge.  The magistrate '
+            'judge will calculate disgorgement as $577,731, less amounts paid '
+            'by AGF Management II, LLC to unaffiliated third parties (which '
+            "Johnson must prove by documentation), other than for Johnson's "
+            'benefit.\n'
+            "The SEC's action against the non-settling defendants continues.\n"
+            'For further information, see Litigation Release No. 23459 '
+            '(February 3, 2016).',
+ 'date': datetime.date(2019, 1, 25),
+ 'h1s': ['SEC Obtains Judgments Against American Growth Funding II, LLC and '
+         'Ralph C. Johnson'],
+ 'h2s': ['Litigation Release No. 24382 / January 25, 2019',
+         'U.S. Securities and Exchange Commission v. American Growth Funding '
+         'II, LLC, et al.,, Civil Action No. 16-cv-00828 (KMW) (S.D.N.Y.)'],
+ 'references_names': ['charged by the SEC in February 2016',
+                      'Litigation Release No. 23459'],
+ 'references_sidebar_names': ['Final Judgment - AGF II', 'Judgment - Johnson'],
+ 'references_sidebar_urls': ['https://www.sec.gov/litigation/complaints/2019/final-judgment24382-agfii.pdf',
+                             'https://www.sec.gov/litigation/complaints/2019/judgment24382-johnson.pdf'],
+ 'references_urls': ['https://www.sec.gov/news/pressrelease/2016-21.html',
+                     'https://www.sec.gov/litigation/litreleases/2016/lr23459.htm'],
+ 'release_no': 'LR-24382',
+ 'respondents': 'American Growth Funding II, LLC, et al.'}
+{'content': 'The Securities and Exchange Commission announced on January 15, '
+            '2019 charges against nine defendants for participating in a '
+            "previously disclosed scheme to hack into the SEC's EDGAR system "
+            'and extract nonpublic information to use for illegal trading.  '
+            'The SEC charged a Ukrainian hacker, six individual traders in '
+            'California, Ukraine, and Russia, and two entities.  The hacker '
+            'and some of the traders were also involved in a similar scheme to '
+            'hack into newswire services and trade on information that had not '
+            'yet been released to the public.  The SEC charged the hacker and '
+            'other traders for that conduct in 2015 (see Press Release No. '
+            '2015-163 (August 11, 2015); Litigation Release Nos. 23471 '
+            '(February 18, 2016) and 24193 (July 10, 2018).\n'
+            "The SEC's complaint alleges that after hacking the newswire "
+            'services, Ukrainian hacker Oleksandr Ieremenko turned his '
+            'attention to EDGAR and, using deceptive hacking techniques, '
+            'gained access in 2016.  Ieremenko extracted EDGAR files '
+            'containing nonpublic earnings results.  The information was '
+            'passed to individuals who used it to trade in the narrow window '
+            'between when the files were extracted from SEC systems and when '
+            'the companies released the information to the public.  In total, '
+            'the traders traded before at least 157 earnings releases from May '
+            'to October 2016 and generated at least $4.1 million in illegal '
+            'profits.\n'
+            "The SEC's complaint alleges that Ieremenko circumvented EDGAR "
+            'controls that require user authentication and then navigated '
+            'within the EDGAR system.  Ieremenko obtained nonpublic "test '
+            'files," which issuers can elect to submit in advance of making '
+            'their official filings to help make sure EDGAR will process the '
+            'filings as intended.  Issuers sometimes elected to include '
+            'nonpublic information in test filings, such as actual quarterly '
+            'earnings results not yet released to the public.  Ieremenko '
+            'extracted nonpublic test files from SEC servers, and then passed '
+            'the information to different groups of traders.\n'
+            "The SEC's complaint alleges that the following traders received "
+            'and traded on the basis of the hacked EDGAR information:\n'
+            "In a parallel action, the U.S. Attorney's Office for the District "
+            'of New Jersey announced related criminal charges.\n'
+            "The SEC's complaint charges each of the defendants with violating "
+            'the federal securities antifraud laws and related SEC antifraud '
+            'rules and seeks a final judgment ordering the defendants to pay '
+            'penalties, return their ill-gotten gains with prejudgment '
+            'interest, and enjoining them from committing future violations of '
+            'the antifraud laws.  The SEC also named and is seeking relief '
+            'from four relief defendants who profited from the scheme when '
+            "defendants used the relief defendants' brokerage accounts to "
+            'place illicit trades.\n'
+            "The SEC's investigation, which is ongoing, was conducted by "
+            'Market Abuse Unit and Cyber Unit staff David Bennett, Arsen '
+            "Ablaev, Michael Baker, Jason Burt, Laura D'Allaird, Adam "
+            'Gottlieb, James Scoggins, David Snyder, Jonathan Warner, Darren '
+            'Boerner, and John Rymas, and IT Forensics staff Ken Zavos, '
+            'Douglas Bond, Stephen Haupt, Gi Nguyen, and Jennifer Ross.  The '
+            'Division of Economic and Risk Analysis and the Office of '
+            'Information Technology provided substantial assistance.  The '
+            'investigation was supervised by Robert Cohen, Joseph Sansone, and '
+            'Carolyn Welshhans.  Cheryl Crumpton and Stephan Schlegelmilch are '
+            "leading the SEC's litigation.  The SEC appreciates the assistance "
+            "of the U.S. Attorney's Office for the District of New Jersey, the "
+            'Federal Bureau of Investigation, and the U.S. Secret Service.',
+ 'date': datetime.date(2019, 1, 17),
+ 'h1s': ['SEC Brings Charges in Edgar Hacking Case'],
+ 'h2s': ['Litigation Release No. 24381 / January 17, 2019',
+         'Securities and Exchange Commission v. Oleksandr Ieremenko, Sungjin '
+         'Cho, David Kwon, Igor Sabodakha, Victoria Vorochek, Ivan Olefir, '
+         'Andrey Sarafanov, Capyield Systems Ltd., Spirit Trade Ltd., Case No. '
+         '2:19-cv-00505 (D.N.J., January 15, 2019)'],
+ 'references_names': ['Press Release No. 2015-163 (August 11, 2015)',
+                      'Litigation Release Nos. 23471 (February 18, 2016)',
+                      '24193 (July 10, 2018)'],
+ 'references_sidebar_names': ['SEC Complaint'],
+ 'references_sidebar_urls': ['https://www.sec.gov/litigation/complaints/2019/comp-pr2019-1.pdf'],
+ 'references_urls': ['https://www.sec.gov/news/pressrelease/2015-163.html',
+                     'https://www.sec.gov/litigation/litreleases/2016/lr23471.htm',
+                     'https://www.sec.gov/litigation/litreleases/2018/lr24193.htm'],
+ 'release_no': 'LR-24381',
+ 'respondents': 'Oleksandr Ieremenko, Sungjin Cho, David Kwon, Igor Sabodakha, '
+                'Victoria Vorochek, Ivan Olefir, Andrey Sarafanov, Capyield '
+                'Systems Ltd., Spirit Trade Ltd.'}
+{'content': 'The Securities and Exchange Commission has charged an Atlanta '
+            'investment adviser and an entity he controls with defrauding a '
+            'private fund they managed and its investors.\n'
+            "The SEC's complaint, filed in federal district court in Atlanta, "
+            'alleges that, beginning in August 2009 and continuing until at '
+            'least June 2018, Joseph A. Meyer, Jr., and Statim Holdings, Inc. '
+            'offered and sold four classes of limited partnership interests in '
+            'Arjun, L.P., a private fund.  The complaint alleges that Meyer '
+            'promised investors that, in return for giving up substantial '
+            'portions of their profits, investors in one class would be '
+            'protected from losses, a feature he called "No Loss Protection," '
+            'and investors in two other classes would receive guaranteed fixed '
+            'returns.  The complaint further alleges that Meyer told investors '
+            'that the relinquished profits would be used to fund the No Loss '
+            'Protection and guaranteed returns when Arjun had insufficient '
+            'profits.\n'
+            'According to the complaint, Meyer withdrew most of the '
+            'relinquished profits and used the funds to pay his living '
+            'expenses.  The complaint alleges that, to deceive investors, '
+            "Meyer recorded on Arjun's books a receivable due from Statim.  "
+            "According to the complaint, Meyer claimed to pay down Statim's "
+            'receivable, but did so by directly or indirectly borrowing money '
+            'from the fund, therefore making the guarantees and No Loss '
+            'Protection illusory because they were backed by nothing other '
+            'than the receivable that sometimes grew to $2.9 million, or 11.5% '
+            "of Arjun's net asset value.\n"
+            "The SEC's complaint alleges that Meyer and Statim violated the "
+            'antifraud provisions of Section 17(a) of the Securities Act of '
+            '1933, Section 10(b) of the Securities Exchange Act of 1934 and '
+            'Rule 10b-5 thereunder, and Sections 206(1), 206(2), and 206(4) of '
+            'the Investment Advisers Act of 1940 and Rule 206(4)-8 thereunder, '
+            "and that Meyer aided and abetted Statim's violations of these "
+            'provisions.  The SEC seeks permanent injunctive relief, '
+            'disgorgement of ill-gotten gains with prejudgment interest, and '
+            'civil penalties.\n'
+            'The SEC appreciates the assistance of the Securities and '
+            "Charities Division of the Georgia Secretary of State's Office.",
+ 'date': datetime.date(2019, 1, 28),
+ 'h1s': ['SEC Charges Atlanta Investment Adviser with Defrauding a Private '
+         'Fund and Its Investors'],
+ 'h2s': ['Litigation Release No. 24383 / January 28, 2019',
+         'Securities and Exchange Commission v. Joseph A. Meyer, Jr. and '
+         'Statim Holdings, Inc., No. 1:18-cv-5868-LMM (N.D. Ga. Filed December '
+         '26, 2018)'],
+ 'references_sidebar_names': ['SEC Complaint'],
+ 'references_sidebar_urls': ['https://www.sec.gov/litigation/complaints/2019/comp24383.pdf'],
+ 'release_no': 'LR-24383',
+ 'respondents': 'Joseph A. Meyer, Jr. and Statim Holdings, Inc.'}
+{'content': 'The Securities and Exchange Commission announced today that on '
+            'January 15, 2019 the United States Court of Appeals for the First '
+            'Circuit dismissed the appeal filed in May 2018 by Howard B. '
+            'Present, co-founder and former CEO of investment management firm '
+            'F-Squared Investments.  In March 2018, a federal judge ordered '
+            'Present to pay over $13 million after a federal jury returned a '
+            'verdict against him for making false and misleading statements to '
+            'investors as the public face of F-Squared.\n'
+            'The SEC charged Present and F-Squared in 2014 with misleading '
+            'investors about the AlphaSector strategy, the flagship product of '
+            'F-Squared which Present launched in the wake of the financial '
+            'crisis.  F-Squared agreed to pay $35 million and admit wrongdoing '
+            "to settle the agency's charges, but Present opted to contest the "
+            "SEC's charges.  After a three-and-a-half week trial, the jury "
+            'deliberated for less than one day before finding Present liable '
+            "on all of the agency's charges against him.\n"
+            "The SEC's case was handled by Frank C. Huntington, Rachel E. "
+            'Hershfang, Jennifer A. Cardello and Alfred A. Day.  The '
+            'investigation that led to the charges was conducted by Rory Alex, '
+            'Robert Baker, Ms. Cardello, Bill Donahue, John Farinacci, Mayeti '
+            'Gametchu, Kevin Kelcourse, and Jose Santillan.  The examination '
+            'that led to the investigation was conducted by Michael McGrath, '
+            'Jamie Pickles, Risa King, Joe Downing, and Nitish Bahadur of the '
+            'Boston office.',
+ 'date': datetime.date(2019, 1, 28),
+ 'h1s': ["Court Dismisses Appeal Filed by Former F-Squared CEO, Affirms SEC's "
+         'Judgment'],
+ 'h2s': ['Litigation Release No. 24384 / January 28, 2019',
+         'Securities and Exchange Commission v. Howard B. Present, No. '
+         '18-cv-1477 (1st Cir. January 15, 2019)'],
+ 'references_names': ['charged', 'trial'],
+ 'references_urls': ['https://www.sec.gov/news/pressrelease/2014-289.html',
+                     'https://www.sec.gov/news/public-statement/statement-verdict-trial-howard-present'],
+ 'release_no': 'LR-24384',
+ 'respondents': 'Howard B. Present'}
