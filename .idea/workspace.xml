@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e185703c-88b4-4e83-ac47-7540d72ce36a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sec.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mining/mining/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/mining/mining/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mining/data.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mining/mining/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/mining/mining/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mining/mining/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mining/mining/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mining/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mining/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mining/mining/spiders/litigations_master_spider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sec/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="litigations_detail_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-639">
-              <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+            <state relative-caret-position="-722">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -37,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mining/mining/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="335">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -50,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/mining/scrapy.cfg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -63,8 +59,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mining/mining/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="250">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="13" />
               <folding>
                 <element signature="e#3167#3176#0" expanded="true" />
               </folding>
@@ -72,20 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="litigations_master_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_master_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+      <file leaf-file-name="extracted_data.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mining/extracted_data.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="-5052">
+              <caret line="18692" column="18" lean-forward="true" selection-start-line="18692" selection-start-column="18" selection-end-line="18692" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mining/data.txt">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sec/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="234" column="3" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+            <state relative-caret-position="2108">
+              <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -93,8 +89,8 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mining/mining/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="-461">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#153#166#0" expanded="true" />
               </folding>
@@ -155,7 +151,6 @@
         <option value="$PROJECT_DIR$/mining/mining/spiders/litigations_master_spider.py" />
         <option value="$PROJECT_DIR$/mining/log.txt" />
         <option value="$PROJECT_DIR$/mining/data.txt" />
-        <option value="$PROJECT_DIR$/sec/settings.py" />
         <option value="$PROJECT_DIR$/litigations/models.py" />
         <option value="$PROJECT_DIR$/litigations/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/mining/test.txt" />
@@ -167,6 +162,7 @@
         <option value="$PROJECT_DIR$/mining/mining/items.py" />
         <option value="$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py" />
         <option value="$PROJECT_DIR$/mining/mining/pipelines.py" />
+        <option value="$PROJECT_DIR$/sec/settings.py" />
       </list>
     </option>
   </component>
@@ -210,12 +206,6 @@
             <path>
               <item name="sec" type="b2602c69:ProjectViewProjectNode" />
               <item name="sec" type="462c0819:PsiDirectoryNode" />
-              <item name="litigations" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sec" type="462c0819:PsiDirectoryNode" />
               <item name="mining" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,6 +220,28 @@
               <item name="mining" type="462c0819:PsiDirectoryNode" />
               <item name="mining" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sec" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="litigations_detail_spider.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sec" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="items.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sec" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="mining" type="462c0819:PsiDirectoryNode" />
+              <item name="pipelines.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -305,17 +317,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21875" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32784185" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20461309" side_tool="true" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20461309" side_tool="true" weight="0.32125205" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893288" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32893288" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.7953869" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.7953869" weight="0.32125205" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,21 +346,21 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32784185" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893288" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32784185" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32893288" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32893288" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32125205" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.7953869" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20461309" side_tool="true" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32893288" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -387,16 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/litigations/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -542,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sec/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/litigations/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -593,37 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mining/mining/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#3167#3176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_master_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mining/test6.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="547" lean-forward="true" selection-start-line="547" selection-end-line="547" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mining/mining/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="66" />
-          <folding>
-            <element signature="e#153#166#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/mining/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -658,21 +626,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_master_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mining/mining/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mining/mining/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="e#3167#3176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
+        <state relative-caret-position="-722">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mining/mining/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/mining/mining/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="-461">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#153#166#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mining/extracted_data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-5052">
+          <caret line="18692" column="18" lean-forward="true" selection-start-line="18692" selection-start-column="18" selection-end-line="18692" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-5393" />
       </provider>
     </entry>
   </component>

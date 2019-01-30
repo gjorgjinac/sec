@@ -13,12 +13,12 @@ class LitigationsDetailSpider(scrapy.Spider):
             # 'https://www.sec.gov/litigation/litreleases.shtml'
         ]
 
-        # request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
-        #                               callback=self.parse_master)
-        # request_2019.meta["year"] = 2019
-        # yield request_2019
+        request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
+                                      callback=self.parse_master)
+        request_2019.meta["year"] = 2019
+        yield request_2019
 
-        for year in range(2012,2013):
+        for year in range(1995,2019):
             url = 'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'.format(year=year)
             request_master = scrapy.Request(url=url, callback=self.parse_master)
             request_master.meta["year"] = year
@@ -51,7 +51,6 @@ class LitigationsDetailSpider(scrapy.Spider):
 
         if year ==1998 or year == 1999 or year==2012:
             i=1
-            toRemove=[]
 
             while i < len(rels):
                 code = rels[i].lower()

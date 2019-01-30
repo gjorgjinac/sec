@@ -42,9 +42,9 @@ class MiningPipeline(object):
         self.count = 0
 
     def process_item(self, item, spider):
-        pass
+        print(item)
         if not spider.name == "detail":
-            print (item)
+
             litigation = Litigation()
             litigation.release_no = item.get("release_no")
             litigation.date = item.get("date")
