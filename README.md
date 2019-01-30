@@ -33,3 +33,4 @@ Further instructions that are not specific to this project can be found in the d
 scrapy(https://scrapy.org/) and django(https://www.djangoproject.com/):
 
 https://goo.gl/Xy66GS
+https://github.com/filipmarkoski45/sec/tree/filip
