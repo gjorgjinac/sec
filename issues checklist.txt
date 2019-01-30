@@ -1,12 +1,12 @@
 Checking master crawler:
 2019 OK
-2018 OK 
+2018 OK
 2017 OK 
 2016 OK 
 2015 OK 
 2014 OK 
 2013 OK 
-2012 - 1 resp missing
+2012 OK #issue with colspan, fixed manually		
 2011 OK 
 2010 OK
 2009 OK
