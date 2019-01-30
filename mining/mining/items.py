@@ -10,11 +10,6 @@ from scrapy.loader.processors import Join, MapCompose, TakeFirst
 from w3lib.html import remove_tags
 
 
-class MiningItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
-
 
 def relative_to_absolute_url(value):
     if value[0] == '/':
@@ -30,6 +25,13 @@ def filter_respondents(value):
         # result = "{word}-[{length}]".format(word=result, length=len(result))
         return result
 
+def filter_release_nos(value):
+    result = value.replace("\r", "").replace("\n", "").replace(" ", "").replace("\t", "")
+    if (len(result)>0):
+        return result
+    else:
+        return None
+
 
 def fix_unicode(value):
     return value.encode('utf-8')
@@ -37,7 +39,7 @@ def fix_unicode(value):
 
 class Litigation(scrapy.Item):
     release_no = scrapy.Field(
-        input_processor=MapCompose(remove_tags)
+        input_processor=MapCompose(remove_tags, filter_release_nos)
     )
     date = scrapy.Field(
         input_processor=MapCompose(remove_tags)

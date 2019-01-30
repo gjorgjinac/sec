@@ -6,7 +6,7 @@ Checking master crawler:
 2015 OK 
 2014 OK 
 2013 OK 
-2012 OK #issue with colspan, fixed manually		
+2012 OK #issue with colspan		
 2011 OK 
 2010 OK
 2009 OK
@@ -19,8 +19,8 @@ Checking master crawler:
 2002 OK
 2001 OK 
 2000 OK
-1999 - 1 rel mising
-1998 - 3 rels missing
+1999 OK #broken links for release_nos
+1998 OK #broken links for release_nos
 1997 OK 
 1996 OK
 1995 OK

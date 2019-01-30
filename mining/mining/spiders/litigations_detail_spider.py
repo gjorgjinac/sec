@@ -13,10 +13,10 @@ class LitigationsDetailSpider(scrapy.Spider):
             # 'https://www.sec.gov/litigation/litreleases.shtml'
         ]
 
-        request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
-                                      callback=self.parse_master)
-        request_2019.meta["year"] = 2019
-        yield request_2019
+        # request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
+        #                               callback=self.parse_master)
+        # request_2019.meta["year"] = 2019
+        # yield request_2019
 
         for year in range(2012,2013):
             url = 'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'.format(year=year)
@@ -30,14 +30,15 @@ class LitigationsDetailSpider(scrapy.Spider):
 
         if year > 2015:
             item_loader.add_xpath('release_no',
-                                  '//tr[count(@id) = 0]/td[1]/a[contains(text(), "LR")]/text() | ' +
-                                  '//tr[count(@id) = 0]/td[1][contains(text(), "LR")]/text()')
+                                  '//tr[count(@id) = 0]/td[1]/a/text() | ' +
+                                  '//tr[count(@id) = 0]/td[1]/text()')
             item_loader.add_xpath('date', '//tr[count(@id) = 0]/td[2]')
             item_loader.add_xpath('respondents', '//tr[count(@id) = 0]/td[3]')
         else:
             item_loader.add_xpath('release_no',
-                                  '(//table)[5]/tr[count(@id) = 0]/td[1]/a[contains(text(), "LR-")]/text() |' +
-                                  '(//table)[5]/tr[count(@id) = 0]/td[1][contains(text(), "LR-")]/text() '                                  )
+                                  '(//table)[5]/tr[count(@id) = 0]/td[1]/a/text() | ' +
+                                  '(//table)[5]/tr[count(@id) = 0]/td[1]/text() '
+                                  )
             item_loader.add_xpath('date', '(//table)[5]/tr[count(@id) = 0]/td[2]')
             item_loader.add_xpath('respondents', '(//table)[5]/tr[count(@id) = 0]/td[3]')
 
@@ -48,12 +49,38 @@ class LitigationsDetailSpider(scrapy.Spider):
             dates.pop(0)
             resps.pop(0)
 
-        print("--------------\nYEAR:{0}\nRELNS:{1}\nDATES:{2}\nRESPS:{3}\n".format(year,len(rels),len(dates),len(resps)))
+        if year ==1998 or year == 1999 or year==2012:
+            i=1
+            toRemove=[]
 
-        for i in range(int(len(rels))):
+            while i < len(rels):
+                code = rels[i].lower()
+                if code == "lr-22283":
+                    resps.insert(i, "(Intentionally omitted)")
+
+                if len(code) < 8:
+                    numbers = []
+                    for codechar in code:
+                        if codechar.isdigit():
+                            numbers.append(codechar)
+                    if len(numbers)==5:
+                        rels[i]="lr-"+"".join(numbers)
+                    else:
+                        rels.pop(i)
+                        i-=1
+                i+=1
+
+
+
+        print("--------------\nYEAR:{0}\nRELNS:{1}\nDATES:{2}\nRESPS:{3}\n".format(year, len(rels), len(dates),
+                                                                                   len(resps)))
+
+        if len(rels) != len(dates) or len (rels)!=len(resps) or len (resps)!=len(dates):
+            print ("ERROR IN YEAR: {0}".format(year))
+        for i in range(0,len(rels)):
             code = rels[i].lower()
-            if code == "lr-22283":
-                resps.insert(i, "(Intentionally omitted)")
+
+
             item = Litigation()
             item['date'] = try_parsing_date(dates[i])
             item['release_no'] = rels[i]

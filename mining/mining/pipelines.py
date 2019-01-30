@@ -13,11 +13,16 @@ def try_parsing_date(text):
 
     text = text.lower().replace(" ", "").replace(".", "").replace(",", "").replace("\n", "").replace("\r", "").replace("\t","")
     text = list(text)
-    for i in range (3, min(len(text),9)):
+    if len(text) < 8:
+        return None
+    i = 3
+    while i < len(text):
         if text[i].isalpha():
             text.pop(i)
-            i-=1
-    text="".join(text)
+            i -= 1
+        i += 1
+
+    text = "".join(text)
 
     formats = ["%b%d%Y", "%B%d%Y"]
     for fmt in formats:
@@ -37,7 +42,7 @@ class MiningPipeline(object):
         self.count = 0
 
     def process_item(self, item, spider):
-
+        pass
         if not spider.name == "detail":
             print (item)
             litigation = Litigation()
