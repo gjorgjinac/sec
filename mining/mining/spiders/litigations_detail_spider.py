@@ -9,9 +9,6 @@ class LitigationsDetailSpider(scrapy.Spider):
     name = "detail"
 
     def start_requests(self):
-        start_urls = [
-            # 'https://www.sec.gov/litigation/litreleases.shtml'
-        ]
 
         request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
                                       callback=self.parse_master)
@@ -29,28 +26,31 @@ class LitigationsDetailSpider(scrapy.Spider):
         item_loader = ItemLoader(item=Litigation(), response=response)
 
         if year > 2015:
+        #new site structure
             item_loader.add_xpath('release_no',
                                   '//tr[count(@id) = 0]/td[1]/a/text() | ' +
                                   '//tr[count(@id) = 0]/td[1]/text()')
             item_loader.add_xpath('date', '//tr[count(@id) = 0]/td[2]')
             item_loader.add_xpath('respondents', '//tr[count(@id) = 0]/td[3]')
         else:
+        #old site structure
             item_loader.add_xpath('release_no',
                                   '(//table)[5]/tr[count(@id) = 0]/td[1]/a/text() | ' +
-                                  '(//table)[5]/tr[count(@id) = 0]/td[1]/text() '
-                                  )
+                                  '(//table)[5]/tr[count(@id) = 0]/td[1]/text() ')
             item_loader.add_xpath('date', '(//table)[5]/tr[count(@id) = 0]/td[2]')
             item_loader.add_xpath('respondents', '(//table)[5]/tr[count(@id) = 0]/td[3]')
 
         rels, dates, resps = item_loader.load_item().values()
 
-
+        #removing the table headers [not necessary starting from 2018]
         if year < 2018:
             dates.pop(0)
             resps.pop(0)
 
-        if year ==1998 or year == 1999 or year==2012:
-            i=1
+        #fixing broken release numbers and colspan issue
+
+        if year == 1998 or year == 1999 or year == 2012:
+            i = 1
 
             while i < len(rels):
                 code = rels[i].lower()
@@ -62,31 +62,29 @@ class LitigationsDetailSpider(scrapy.Spider):
                     for codechar in code:
                         if codechar.isdigit():
                             numbers.append(codechar)
-                    if len(numbers)==5:
-                        rels[i]="lr-"+"".join(numbers)
+                    if len(numbers) == 5:
+                        rels[i] = "lr-"+"".join(numbers)
                     else:
                         rels.pop(i)
-                        i-=1
-                i+=1
+                        i -= 1
+                i += 1
 
+        #print("--------------\nYEAR:{0}\nRELNS:{1}\nDATES:{2}\nRESPS:{3}\n".format(year, len(rels), len(dates),len(resps)))
 
+        #if len(rels) != len(dates) or len(rels) != len(resps) or len(resps) != len(dates):
+            #print("ERROR IN YEAR: {0}".format(year))
 
-        print("--------------\nYEAR:{0}\nRELNS:{1}\nDATES:{2}\nRESPS:{3}\n".format(year, len(rels), len(dates),
-                                                                                   len(resps)))
-
-        if len(rels) != len(dates) or len (rels)!=len(resps) or len (resps)!=len(dates):
-            print ("ERROR IN YEAR: {0}".format(year))
-        for i in range(0,len(rels)):
+        for i in range(0, len(rels)):
             code = rels[i].lower()
-
 
             item = Litigation()
             item['date'] = try_parsing_date(dates[i])
             item['release_no'] = rels[i]
             item['respondents'] = resps[i]
 
-            if item.get("date") is None:  # for Omitted
+            # Litigations where the details are intentionally omitted
 
+            if item.get("date") is None:
                 path = "//tr[count(@id) = 0]/td[1]/a[text()='{rel_no}']".format(rel_no=rels[i])
                 result = response.xpath(path)
                 if len(result) != 0:
@@ -132,7 +130,7 @@ class LitigationsDetailSpider(scrapy.Spider):
         item_loader = ItemLoader(item=Litigation(), response=response)
 
         if item.get("date") is not None and item.get("date") >= try_parsing_date("May 20, 1999"):
-            if item.get("date").year >= 2016:
+            if item.get("date").year >= 2016: #new site structure
                 item_loader.add_xpath('h1s', '//h1 | //h1/p | //h1/a')
                 item_loader.add_xpath('h2s', '//h2 | //h2/p | //h2/a')
                 item_loader.add_xpath('h3s', '//h3 | //h3/p | //h3/a')
@@ -141,7 +139,7 @@ class LitigationsDetailSpider(scrapy.Spider):
                 item_loader.add_xpath('references_sidebar_names', '//div[@class="grid_3 omega"]/ul/li/a/text()')
                 item_loader.add_xpath('references_sidebar_urls', '//div[@class="grid_3 omega"]/ul/li/a/@href')
                 item_loader.add_xpath('content', '//div[@class="grid_7 alpha"]/p')
-            else:
+            else: #old site structure
                 item_loader.add_xpath('h1s', '//h1 | //h1/p | //h1/a')
                 item_loader.add_xpath('h2s', '//h2 | //h2/p | //h2/a')
                 item_loader.add_xpath('h3s', '//h3 | //h3/p | //h3/a')
@@ -151,7 +149,7 @@ class LitigationsDetailSpider(scrapy.Spider):
                                       '//p/a/@href | ((//table)[3]/tr/td[3]/font/table)[position() < last()]//tr/td/a/@href')
                 item_loader.add_xpath('content', '//p | //li')
 
-        else:
+        else: #old site structure, litigations with .txt content and no html
             item_loader.add_xpath('content', '//body')
 
         item_details = item_loader.load_item()

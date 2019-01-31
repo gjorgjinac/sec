@@ -100,13 +100,6 @@ class MiningPipeline(object):
                     reference.save()
 
 
-'''
-references_names = scrapy.Field()
-references_urls = scrapy.Field(input_processor=MapCompose(relative_to_absolute_url))
-references_sidebar_names = scrapy.Field()
-references_sidebar_urls = scrapy.Field(input_processor=MapCompose(relative_to_absolute_url))
-'''
-
 
 
 

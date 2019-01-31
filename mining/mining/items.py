@@ -25,10 +25,18 @@ def filter_respondents(value):
         # result = "{word}-[{length}]".format(word=result, length=len(result))
         return result
 
-def filter_release_nos(value):
+
+def filter_releasenos(value):
     result = value.replace("\r", "").replace("\n", "").replace(" ", "").replace("\t", "")
-    if (len(result)>0):
+    if len(result) > 0:
         return result
+    else:
+        return None
+
+def filter_empty(value):
+    result = value.replace("\r", "").replace("\n", "").replace(" ", "").replace("\t", "")
+    if len(result) > 0:
+        return value
     else:
         return None
 
@@ -39,7 +47,7 @@ def fix_unicode(value):
 
 class Litigation(scrapy.Item):
     release_no = scrapy.Field(
-        input_processor=MapCompose(remove_tags, filter_release_nos)
+        input_processor=MapCompose(remove_tags, filter_releasenos)
     )
     date = scrapy.Field(
         input_processor=MapCompose(remove_tags)
@@ -48,7 +56,7 @@ class Litigation(scrapy.Item):
         input_processor=MapCompose(remove_tags, filter_respondents)
     )
     content = scrapy.Field(
-        input_processor=MapCompose(remove_tags),
+        input_processor=MapCompose(remove_tags,filter_empty),
         output_processor=Join("\n")
     )
 
@@ -69,9 +77,6 @@ class Litigation(scrapy.Item):
     references_urls = scrapy.Field(input_processor=MapCompose(relative_to_absolute_url))
     references_sidebar_names = scrapy.Field()
     references_sidebar_urls = scrapy.Field(input_processor=MapCompose(relative_to_absolute_url))
-
-    # def __str__(self) -> str:
-    #     return "{content}-[{length}]".format(self.content, len(self.content))
 
 
 class Reference(scrapy.Item):

@@ -1,7 +1,7 @@
 
 STRUCTURE:
 
-The final results can be found in the extracted_data.txt file
+The final results can be found in the sec_data.txt file
 
 'litigations' is a django app that enables the database connection (https://www.djangoproject.com/)
 
@@ -10,13 +10,14 @@ The final results can be found in the extracted_data.txt file
 	
   The parse_master function collects data (release_no, date and respondents) from 
   'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchiveXXXX.shtml' (where XXXX is the year, 1995<=XXXX<=2018)
-  and sends requests for additional data (titles, content, references) for each litigation, which are later processed by the 
-  parse_detail function. 
-	
-  The items are then sent to the pipeline to be written in the database (sec\mining\mining\pipelines.py)
-  The spider also uses processing functions defined for each item class in sec\mining\mining\items.py
- 
- 
+  and sends requests to get additional data (titles, content, references) for each litigation, which are later processed by the
+  parse_detail function. The parsing functions handle the inconsistencies in the website listed in the issues_checklist.txt file.
+  The pieces of data are stored in item loaders which apply a series of processing functions defined
+  for each item class in sec\mining\mining\items.py.
+  The items are written to the database using the process_item function in the MiningPipeline (sec\mining\mining\pipelines.py)
+
+
+
 HOW TO USE:
 
 To start the crawler, you need to run 'scrappy crawl detail' from the sec/mining directory 
@@ -30,7 +31,7 @@ To add delays between requests, set the maximum number of concurrent requests, o
 you need to change the sec/mining/mining/settings.py file
 
 Further instructions that are not specific to this project can be found in the documentation of 
-scrapy(https://scrapy.org/) and django(https://www.djangoproject.com/):
+scrapy(https://scrapy.org/) and django(https://www.djangoproject.com/).
 
-https://goo.gl/Xy66GS
-https://github.com/filipmarkoski45/sec/tree/filip
+Note: https://goo.gl/Xy66GS
+Another repository of the project [outdated]: https://github.com/filipmarkoski45/sec/tree/filip

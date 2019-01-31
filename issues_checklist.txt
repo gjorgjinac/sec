@@ -1,0 +1,35 @@
+Common issues in the site itself:
+    inconsistent date formats - random use of ',. \t' OK
+    intentionally omitted details OK
+    no distinction between table head and body (table headers added as rows and columns) before 2018 OK
+    inconsistent use of h1,h2,h3 for titles OK
+    inconsistent number of titles and subtitles OK
+    paragraph tags nested in heading tags - scrapy ignores them
+    unnecessary tabs and new lines OK
+
+Issues by year:
+    2019 OK #different master url
+    2018 OK
+    2017 OK
+    2016 OK
+    2015 OK #old site structure DOWN #no sidebar references DOWN
+    2014 OK
+    2013 OK
+    2012 OK #issue with colspan
+    2011 OK
+    2010 OK
+    2009 OK
+    2008 OK
+    2007 OK
+    2006 OK #year removed from details url DOWN
+    2005 OK
+    2004 OK
+    2003 OK #extra letter in september dates
+    2002 OK
+    2001 OK
+    2000 OK
+    1999 OK #broken release_nos  #details in txt format May 20, 1999 DOWN
+    1998 OK #broken release_nos
+    1997 OK
+    1996 OK
+    1995 OK
