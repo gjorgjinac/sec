@@ -2,6 +2,7 @@
 STRUCTURE:
 
 The final results can be found in the data.txt file
+
 'litigations' is a django app that enables the database connection (https://www.djangoproject.com/)
 
 'mining' is a scrapy app that crawls 'sec.gov' (https://scrapy.org/)
