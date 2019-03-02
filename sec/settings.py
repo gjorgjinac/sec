@@ -75,9 +75,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'OPTIONS': {
-            'options': '-c search_path=sec'
+            'options': '-c search_path=litigations'
         },
-        'NAME': 'postgres',
+        'NAME': 'litigations',
         'USER': 'postgres',
         'PASSWORD': 'password',
         'HOST': 'localhost',

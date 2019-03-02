@@ -46,6 +46,10 @@ def fix_unicode(value):
 
 
 class Litigation(scrapy.Item):
+    people = scrapy.Field()
+    organizations = scrapy.Field()
+
+
     release_no = scrapy.Field(
         input_processor=MapCompose(remove_tags, filter_releasenos)
     )

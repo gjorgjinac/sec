@@ -8,6 +8,8 @@ class Litigation(models.Model):
     date = models.DateField(null=True, blank=True)
     respondents = models.CharField(max_length=1024)
     content = models.TextField(blank=True, null=True)
+    people = models.CharField(max_length=1024, null=True)
+    organizations = models.CharField(max_length=1024, null=True)
 
     def __str__(self):
         return "{release_no} - {date} - {respondents}".format(release_no=self.release_no,

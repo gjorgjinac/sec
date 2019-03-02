@@ -7,7 +7,10 @@
 from litigations.models import Litigation, Reference, Title
 from datetime import datetime
 from w3lib.html import remove_tags
-
+import spacy
+from spacy import displacy
+from collections import Counter
+import en_core_web_sm
 
 def try_parsing_date(text):
 
@@ -36,20 +39,34 @@ def try_parsing_date(text):
     return None
 
 
+def clean_string (toClean):
+    return toClean.replace("\n", "").replace("\t", "").replace("\xa0","").replace("\r","")
+
 class MiningPipeline(object):
 
     def __init__(self):
         self.count = 0
 
     def process_item(self, item, spider):
-        print(item)
-        if not spider.name == "detail":
+        #print(item)
+        if  spider.name == "detail":
+            nlp = en_core_web_sm.load()
+
+
 
             litigation = Litigation()
             litigation.release_no = item.get("release_no")
             litigation.date = item.get("date")
             litigation.respondents = item.get("respondents")
             litigation.content = item.get("content")
+            if item.get("content") is not None:
+                doc = nlp(item.get("content"))
+                litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
+                                                           filter(lambda x: x.label_ == 'PERSON',doc.ents)))))
+                litigation.organizations = '; '.join(list(set(map(lambda y: clean_string(y.text), filter(lambda x: x.label_ == 'ORG', doc.ents)))))
+                item["people"]= litigation.people
+                item["organizations"]= litigation.organizations
+            print (item)
             litigation.save()
 
             # Titles
