@@ -90,7 +90,7 @@ ITEM_PIPELINES = {
 
 # We added this, but it doesn't do anything
 # FEED_EXPORT_ENCODING = "utf-8"
-
+'''
 import os
 import sys
 import django
@@ -99,3 +99,4 @@ sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__f
 os.environ['DJANGO_SETTINGS_MODULE'] = 'sec.settings'
 
 django.setup()
+'''

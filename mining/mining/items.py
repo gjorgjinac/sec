@@ -45,7 +45,7 @@ def fix_unicode(value):
     return value.encode('utf-8')
 
 
-class Litigation(scrapy.Item):
+class LitigationItem(scrapy.Item):
     people = scrapy.Field()
     organizations = scrapy.Field()
 
@@ -83,7 +83,7 @@ class Litigation(scrapy.Item):
     references_sidebar_urls = scrapy.Field(input_processor=MapCompose(relative_to_absolute_url))
 
 
-class Reference(scrapy.Item):
+class ReferenceItem(scrapy.Item):
     litigation = scrapy.Field()
     reference = scrapy.Field()
     reference_text = scrapy.Field()

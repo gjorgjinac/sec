@@ -1,8 +1,10 @@
 import os
 import scrapy
 from scrapy.loader import ItemLoader
-from mining.items import Litigation
+import mining.items
 from mining.pipelines import try_parsing_date
+
+from mining.mining.items import LitigationItem
 
 
 class LitigationsDetailSpider(scrapy.Spider):
@@ -23,7 +25,7 @@ class LitigationsDetailSpider(scrapy.Spider):
 
     def parse_master(self, response):
         year = response.meta.get("year")
-        item_loader = ItemLoader(item=Litigation(), response=response)
+        item_loader = ItemLoader(item=LitigationItem(), response=response)
 
         if year > 2015:
         #new site structure
@@ -77,7 +79,7 @@ class LitigationsDetailSpider(scrapy.Spider):
         for i in range(0, len(rels)):
             code = rels[i].lower()
 
-            item = Litigation()
+            item = LitigationItem()
             item['date'] = try_parsing_date(dates[i])
             item['release_no'] = rels[i]
             item['respondents'] = resps[i]
@@ -127,7 +129,7 @@ class LitigationsDetailSpider(scrapy.Spider):
     def parse_detail(self, response):
         item = response.meta["item"]  # item is of type Litigation
 
-        item_loader = ItemLoader(item=Litigation(), response=response)
+        item_loader = ItemLoader(item=LitigationItem(), response=response)
 
         if item.get("date") is not None and item.get("date") >= try_parsing_date("May 20, 1999"):
             if item.get("date").year >= 2016: #new site structure

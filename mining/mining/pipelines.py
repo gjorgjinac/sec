@@ -55,6 +55,7 @@ class MiningPipeline(object):
 
 
             litigation = Litigation()
+
             litigation.release_no = item.get("release_no")
             litigation.date = item.get("date")
             litigation.respondents = item.get("respondents")
