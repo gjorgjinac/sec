@@ -5,13 +5,13 @@ from .models import Litigation, Reference, Title
 class ReferenceSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Reference
-        fields = ('litigation', 'reference', 'reference_text')
+        fields = ( 'reference', 'reference_text')
 
 
 class TitleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Title
-        fields = ('litigation', 'title_text', 'priority')
+        fields = ( 'title_text', 'priority')
 
 
 class LitigationSerializer(serializers.HyperlinkedModelSerializer):
