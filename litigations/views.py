@@ -4,7 +4,12 @@ from litigations.serializers import LitigationSerializer, ReferenceSerializer, T
 
 
 class LitigationViewSet(viewsets.ModelViewSet):
-    queryset = Litigation.objects.all()[20:44]
+    queryset = Litigation.objects.all()
+    serializer_class = LitigationSerializer
+
+
+class LitigationViewSetByYear(viewsets.ModelViewSet):
+    queryset = Litigation.objects.all()
     serializer_class = LitigationSerializer
 
 

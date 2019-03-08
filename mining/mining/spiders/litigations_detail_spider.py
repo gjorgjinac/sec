@@ -5,19 +5,19 @@ import mining.items
 from mining.pipelines import try_parsing_date
 
 from mining.mining.items import LitigationItem
-
+import datetime
 
 class LitigationsDetailSpider(scrapy.Spider):
     name = "detail"
 
     def start_requests(self):
-
-        request_2019 = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
+        current_year=datetime.datetime.now().year
+        request_current_year = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
                                       callback=self.parse_master)
-        request_2019.meta["year"] = 2019
-        yield request_2019
+        request_current_year.meta["year"] = current_year
+        yield request_current_year
 
-        for year in range(1995,2019):
+        for year in range(1995,current_year):
             url = 'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'.format(year=year)
             request_master = scrapy.Request(url=url, callback=self.parse_master)
             request_master.meta["year"] = year
