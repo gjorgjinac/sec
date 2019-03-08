@@ -24,7 +24,7 @@ class Litigation(models.Model):
 
 
 class Reference(models.Model):
-    litigation = models.ForeignKey(Litigation, on_delete=models.SET_NULL, blank=True, null=True)
+    litigation = models.ForeignKey(Litigation, on_delete=models.SET_NULL, blank=True, null=True, related_name='litigation_fk_reference')
     reference = models.CharField(max_length=2000)
     reference_text = models.CharField(max_length=2000)
     objects = models.Manager()
@@ -37,7 +37,7 @@ def is_positive(value):
 
 class Title(models.Model):
     objects = models.Manager()
-    litigation = models.ForeignKey(Litigation, on_delete=models.SET_NULL, blank=True, null=True)
+    litigation = models.ForeignKey(Litigation, on_delete=models.SET_NULL, blank=True, null=True, related_name='litigation_fk_title')
     title_text = models.CharField(max_length=1024, null=True, blank=True)
     priority = models.IntegerField(default=6, validators=[is_positive])  # h1 h2 h3
     def __str__(self):

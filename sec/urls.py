@@ -22,7 +22,8 @@ from litigations.views import LitigationViewSet
 
 router = routers.DefaultRouter()
 router.register(r'litigations', views.LitigationViewSet)
-# router.register(r'titles', views.TitleViewSet)
+router.register(r'references', views.ReferenceViewSet)
+router.register(r'titles', views.TitleViewSet)
 
 #  ,
 
