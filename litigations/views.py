@@ -14,7 +14,7 @@ class LitigationViewSet(viewsets.ModelViewSet):
         respondents = self.request.GET.get('respondents')
         date1=self.request.GET.get('from')
         date2=self.request.GET.get('to')
-        allLitigations=Litigation.objects.all();
+        allLitigations=Litigation.objects.all()
         if relno is not None:
             allLitigations=allLitigations.filter(release_no=relno)
         if year is not None:

@@ -4,13 +4,13 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-from litigations.models import Litigation, Reference, Title
+
 from datetime import datetime
-from w3lib.html import remove_tags
-import spacy
-from spacy import displacy
-from collections import Counter
+from litigations.models import Reference, Litigation, Title
 import en_core_web_sm
+
+
+
 
 def try_parsing_date(text):
 
@@ -48,14 +48,11 @@ class MiningPipeline(object):
         self.count = 0
 
     def process_item(self, item, spider):
-        #print(item)
-        if  spider.name == "detail":
+        litigation: Litigation = Litigation.objects.get(release_no=item.get("release_no"))
+        if  spider.name == "detail" and litigation is None:
+
             nlp = en_core_web_sm.load()
-
-
-
-            litigation = Litigation()
-
+            litigation =  Litigation()
             litigation.release_no = item.get("release_no")
             litigation.date = item.get("date")
             litigation.respondents = item.get("respondents")
