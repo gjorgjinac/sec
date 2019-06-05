@@ -4,8 +4,14 @@ from litigations.serializers import LitigationSerializer, ReferenceSerializer, T
 import datetime
 
 class LitigationViewSet(viewsets.ModelViewSet):
+    
+    def string_to_date (self, string_date):
+        date_parts = string_date.split("-")
+        return datetime.date(int(date_parts[0]),int(date_parts[1]),int(date_parts)[2])
+
     queryset = Litigation.objects.all()
     serializer_class = LitigationSerializer
+    
     def get_queryset(self):
         relno = self.request.GET.get('relno')
         year = self.request.GET.get('year')
@@ -14,23 +20,23 @@ class LitigationViewSet(viewsets.ModelViewSet):
         respondents = self.request.GET.get('respondents')
         date1=self.request.GET.get('from')
         date2=self.request.GET.get('to')
-        allLitigations=Litigation.objects.all()
+        litigations_query=Litigation.objects.all()
         if relno is not None:
-            allLitigations=allLitigations.filter(release_no=relno)
+            litigations_query=litigations_query.filter(release_no=relno)
         if year is not None:
-            allLitigations = allLitigations.filter(date__year=year)
+            litigations_query = litigations_query.filter(date__year=year)
         if orgs is not None:
-            allLitigations = allLitigations.filter(organizations__contains=orgs)
+            litigations_query = litigations_query.filter(organizations__contains=orgs)
         if people is not None:
-            allLitigations = allLitigations.filter(people__contains=people)
+            litigations_query = litigations_query.filter(people__contains=people)
         if respondents is not None:
-            allLitigations = allLitigations.filter(respondents__contains=respondents)
+            litigations_query = litigations_query.filter(respondents__contains=respondents)
         if date1 is not None:
-            allLitigations = allLitigations.filter(date__gte = datetime.date(int(date1.split("-")[0]),int(date1.split("-")[1]),int(date1.split("-")[2])))
+            litigations_query = litigations_query.filter(date__gte = self.string_to_date(date1))
         if date2 is not None:
-            allLitigations = allLitigations.filter(date__lte = datetime.date(int(date2.split("-")[0]),int(date2.split("-")[1]),int(date2.split("-")[2])))
+            litigations_query = litigations_query.filter(date__lte = self.string_to_date(date2))
 
-        return allLitigations
+        return litigations_query
 
 
 class ReferenceViewSet(viewsets.ModelViewSet):

@@ -9,9 +9,6 @@ from datetime import datetime
 from litigations.models import Reference, Litigation, Title
 import en_core_web_sm
 
-
-
-
 def try_parsing_date(text):
 
     text = text.lower().replace(" ", "").replace(".", "").replace(",", "").replace("\n", "").replace("\r", "").replace("\t","")
@@ -30,12 +27,9 @@ def try_parsing_date(text):
     formats = ["%b%d%Y", "%B%d%Y"]
     for fmt in formats:
         try:
-
             return datetime.strptime(text, fmt).date()
         except ValueError:
             pass
-
-
     return None
 
 
