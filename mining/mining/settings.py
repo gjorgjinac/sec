@@ -90,13 +90,12 @@ ITEM_PIPELINES = {
 
 # We added this, but it doesn't do anything
 # FEED_EXPORT_ENCODING = "utf-8"
-'''
+
 import os
 import sys
 import django
-
-sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".."))
+sys.path.append('C:\\Users\\Dell\\anaconda_projects\\sec')
+#sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".."))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'sec.settings'
 
 django.setup()
-'''

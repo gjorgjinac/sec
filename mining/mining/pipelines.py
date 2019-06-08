@@ -4,10 +4,18 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+import sys
+
 
 from datetime import datetime
-from litigations.models import Reference, Litigation, Title
-import en_core_web_sm
+
+import spacy
+
+#import en_core_web_sm
+import litigations.models
+
+if __name__ == '__main__':
+    print('fu')
 
 def try_parsing_date(text):
 
@@ -42,11 +50,13 @@ class MiningPipeline(object):
         self.count = 0
 
     def process_item(self, item, spider):
-        litigation: Litigation = Litigation.objects.get(release_no=item.get("release_no"))
+        litigation: litigations.models.Litigation = litigations.models.Litigation.objects.filter(release_no=item.get("release_no")).first()
         if  spider.name == "detail" and litigation is None:
-
-            nlp = en_core_web_sm.load()
-            litigation =  Litigation()
+            print('not in db:')
+            print(item.get("date"))
+            #nlp = en_core_web_sm.load()
+            nlp = spacy.load('en_core_web_sm')
+            litigation =  litigations.models.Litigation()
             litigation.release_no = item.get("release_no")
             litigation.date = item.get("date")
             litigation.respondents = item.get("respondents")
@@ -59,6 +69,7 @@ class MiningPipeline(object):
                 item["people"]= litigation.people
                 item["organizations"]= litigation.organizations
             print (item)
+            '''
             litigation.save()
 
             # Titles
@@ -107,6 +118,7 @@ class MiningPipeline(object):
                     reference.reference_text = text
                     reference.reference = url
                     reference.save()
+                    '''
 
 
 
