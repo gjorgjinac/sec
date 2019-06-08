@@ -20,14 +20,14 @@ class LitigationsDetailSpider(scrapy.Spider):
                                       callback=self.parse_master)
         request_current_year.meta["year"] = current_year
         yield request_current_year
-        '''
+
         for year in range(1995,current_year):
             url = 'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'.format(year=year)
             request_master = scrapy.Request(url=url, callback=self.parse_master)
             request_master.meta["year"] = year
             yield request_master
 
-    '''
+
     def parse_master(self, response):
         year = response.meta.get("year")
         item_loader = ItemLoader(item=LitigationItem(), response=response)

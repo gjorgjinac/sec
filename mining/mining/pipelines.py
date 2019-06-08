@@ -69,7 +69,7 @@ class MiningPipeline(object):
                 item["people"]= litigation.people
                 item["organizations"]= litigation.organizations
             print (item)
-            '''
+
             litigation.save()
 
             # Titles
@@ -118,7 +118,7 @@ class MiningPipeline(object):
                     reference.reference_text = text
                     reference.reference = url
                     reference.save()
-                    '''
+
 
 
 
