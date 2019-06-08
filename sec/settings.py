@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'litigations',
     'mining',
-
 ]
 
 MIDDLEWARE = [

@@ -1,5 +1,4 @@
-
-STRUCTURE:
+### STRUCTURE:
 
 The final results can be found in the data.txt file
 
@@ -16,7 +15,7 @@ The final results can be found in the data.txt file
   for each item class in sec\mining\mining\items.py.
   The items are written to the database using the process_item function in the MiningPipeline (sec\mining\mining\pipelines.py)
 
-HOW TO USE:
+### HOW TO USE:
 
 To start the crawler, you need to run 'scrappy crawl detail' from the mining directory 
 
@@ -28,6 +27,6 @@ The download delay is currently set to 0.
 To add delays between requests, set the maximum number of concurrent requests, or enable autothrottle,
 you need to change the mining/mining/settings.py file
 
-Further instructions that are not specific to this project can be found in the documentation of 
-scrapy(https://scrapy.org/) and django(https://www.djangoproject.com/).
+Further instructions that are not specific to this project can be found in the documentation of
+scrapy (https://scrapy.org/) and django (https://www.djangoproject.com/).
 
