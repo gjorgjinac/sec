@@ -10,16 +10,28 @@ import sys
 import django
 import spacy
 
+items_file_path = os.path.abspath(__file__)
+mining_subfolder = os.path.dirname(items_file_path)
+mining_folder = os.path.dirname(mining_subfolder)
+BASE_DIR = os.path.dirname(mining_folder)
+
+print(f'BASE_DIR={BASE_DIR}')
+
+sys.path.append(mining_subfolder)
+
 # Adjustment for Local Imports
 os.environ['DJANGO_SETTINGS_MODULE'] = 'sec.settings'
 django.setup()
 
 # Local Imports
 from litigations.models import Litigation, Title, Reference
+from items import LitigationItem
+
+nlp = spacy.load('en_core_web_sm')
 
 
-def clean_string(toClean):
-    return toClean.replace("\n", "").replace("\t", "").replace("\xa0", "").replace("\r", "")
+def clean_string(to_clean):
+    return to_clean.replace("\n", "").replace("\t", "").replace("\xa0", "").replace("\r", "")
 
 
 class MiningPipeline(object):
@@ -29,77 +41,86 @@ class MiningPipeline(object):
 
     def process_item(self, item, spider):
 
-        if item.get("date_modified") is not None:
-            print(f'{item.get("date_modified")} FROM {item.get("release_no")}')
+        if spider.name == "detail" and item.get("release_no") is not None:
 
-        # Check if a litigation exists in the database with the same natural key as the current item
-        litigation: Litigation = Litigation.objects.filter(
-            release_no=item.get("release_no")).first()
+            # Check if a litigation exists in the database with the same natural key as the current item
+            litigation: Litigation = Litigation.objects.filter(
+                release_no=item.get("release_no")).first()
 
-        # if such a litigation does not exist, store it in the database
-        if False and litigation is None and spider.name == "detail":
-            nlp = spacy.load('en_core_web_sm')
+            if litigation is None:
+                print(f'STORING NEW litigation WITH realease_no={item.get("release_no")}')
+                # if such a litigation does not exist, store it in the database
+                litigation: Litigation = Litigation()
+                litigation.release_no = item.get('release_no')
+                store_litigation_item(litigation, item)
 
-            litigation = Litigation()
-            litigation.release_no = item.get("release_no")
-            litigation.date = item.get("date")
-            litigation.respondents = item.get("respondents")
-            litigation.content = item.get("content")
-            if item.get("content") is not None:
-                doc = nlp(item.get("content"))
-                litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
-                                                           filter(lambda x: x.label_ == 'PERSON', doc.ents)))))
-                litigation.organizations = '; '.join(
-                    list(set(map(lambda y: clean_string(y.text), filter(lambda x: x.label_ == 'ORG', doc.ents)))))
-                item["people"] = litigation.people
-                item["organizations"] = litigation.organizations
-            print(item)
+            elif litigation is not None and item.get("date_modified") is not None:
+                # if a newer version of the litigation exists
+                date_modified = item.get("date_modified")
+                if litigation.date < date_modified:
+                    print(f'UPDATING litigation WITH realease_no={item.get("release_no")}')
+                    # update that litigation by overwriting all of its fields
+                    store_litigation_item(litigation, item)
 
-            # litigation.save()
 
-            # Titles
+def store_litigation_item(litigation: Litigation, item: LitigationItem):
+    litigation.date = item.get("date")
+    litigation.date_modified = item.get("date_modified")
+    litigation.respondents = item.get("respondents")
+    litigation.content = item.get("content")
+    if item.get("content") is not None:
+        doc = nlp(item.get("content"))
+        litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
+                                                   filter(lambda x: x.label_ == 'PERSON', doc.ents)))))
+        litigation.organizations = '; '.join(
+            list(set(map(lambda y: clean_string(y.text), filter(lambda x: x.label_ == 'ORG', doc.ents)))))
+        item["people"] = litigation.people
+        item["organizations"] = litigation.organizations
+    litigation.save()
 
-            if item.get("h1s") is not None:
-                for h1 in item.get("h1s"):
-                    if not h1.replace("\r", "").replace("\n", "") == "":
-                        title = Title()
-                        title.litigation = litigation
-                        title.priority = 1
-                        title.title_text = h1
-                        # title.save()
+    # Titles
 
-            if item.get("h2s") is not None:
-                for h2 in item.get("h2s"):
-                    if not h2.replace("\r", "").replace("\n", "") == "":
-                        title = Title()
-                        title.litigation = litigation
-                        title.priority = 2
-                        title.title_text = h2
-                        # title.save()
+    if item.get("h1s") is not None:
+        for h1 in item.get("h1s"):
+            if not h1.replace("\r", "").replace("\n", "") == "":
+                title = Title()
+                title.litigation = litigation
+                title.priority = 1
+                title.title_text = h1
+                title.save()
 
-            if item.get("h3s") is not None:
-                for h3 in item.get("h3s"):
-                    if not h3.replace("\r", "").replace("\n", "") == "":
-                        title = Title()
-                        title.litigation = litigation
-                        title.priority = 3
-                        title.title_text = h3
-                        # title.save()
+    if item.get("h2s") is not None:
+        for h2 in item.get("h2s"):
+            if not h2.replace("\r", "").replace("\n", "") == "":
+                title = Title()
+                title.litigation = litigation
+                title.priority = 2
+                title.title_text = h2
+                title.save()
 
-            # References
+    if item.get("h3s") is not None:
+        for h3 in item.get("h3s"):
+            if not h3.replace("\r", "").replace("\n", "") == "":
+                title = Title()
+                title.litigation = litigation
+                title.priority = 3
+                title.title_text = h3
+                title.save()
 
-            if item.get("references_names") is not None and item.get("references_urls") is not None:
-                for text, url in zip(item.get("references_names"), item.get("references_urls")):
-                    reference = Reference()
-                    reference.litigation = litigation
-                    reference.reference_text = text
-                    reference.reference = url
-                    # reference.save()
+    # References
 
-            if item.get("references_sidebar_names") is not None and item.get("references_sidebar_urls") is not None:
-                for text, url in zip(item.get("references_sidebar_names"), item.get("references_sidebar_urls")):
-                    reference = Reference()
-                    reference.litigation = litigation
-                    reference.reference_text = text
-                    reference.reference = url
-                    # reference.save()
+    if item.get("references_names") is not None and item.get("references_urls") is not None:
+        for text, url in zip(item.get("references_names"), item.get("references_urls")):
+            reference = Reference()
+            reference.litigation = litigation
+            reference.reference_text = text
+            reference.reference = url
+            reference.save()
+
+    if item.get("references_sidebar_names") is not None and item.get("references_sidebar_urls") is not None:
+        for text, url in zip(item.get("references_sidebar_names"), item.get("references_sidebar_urls")):
+            reference = Reference()
+            reference.litigation = litigation
+            reference.reference_text = text
+            reference.reference = url
+            reference.save()

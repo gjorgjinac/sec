@@ -14,7 +14,7 @@ class LitigationViewSet(viewsets.ModelViewSet):
     serializer_class = LitigationSerializer
 
     def get_queryset(self):
-        relno = self.request.GET.get('relno')
+        release_no = self.request.GET.get('release_no')
         year = self.request.GET.get('year')
         orgs = self.request.GET.get('organizations')
         people = self.request.GET.get('people')
@@ -22,8 +22,8 @@ class LitigationViewSet(viewsets.ModelViewSet):
         date1 = self.request.GET.get('from')
         date2 = self.request.GET.get('to')
         litigations_query = Litigation.objects.all()
-        if relno is not None:
-            litigations_query = litigations_query.filter(release_no=relno)
+        if release_no is not None:
+            litigations_query = litigations_query.filter(release_no=release_no)
         if year is not None:
             litigations_query = litigations_query.filter(date__year=year)
         if orgs is not None:

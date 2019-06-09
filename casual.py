@@ -18,7 +18,7 @@ def test_spacy_load():
 
 
 def test_litigation_to_string():
-    release_no = 'LR-254380'
+    release_no = 'LR-24380'
     litigation: Litigation = Litigation.objects.filter(release_no=release_no).first()
     print(litigation)
 
@@ -69,4 +69,9 @@ if __name__ == '__main__':
     # test_litigation_to_string()
     # test_contrinue_loop()
     # test_remove_characters()
-    test_parse_date_modified()
+    # test_parse_date_modified()
+    item = dict()
+    item['date_modified'] = datetime.date.today()
+    past = datetime.date(2007, 12, 5)
+    if past < item.get('date_modified'):
+        print("Modified version!")

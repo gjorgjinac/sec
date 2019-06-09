@@ -15,7 +15,14 @@ class Litigation(models.Model):
     objects = models.Manager()
 
     def __str__(self):
-        return f'release_no={self.release_no}{os.linesep}date={self.date}{os.linesep}date_modified:{self.date_modified}{os.linesep}respondents={self.respondents}{os.linesep}people={self.people}{os.linesep}organizations={self.organizations}{os.linesep}content={self.content}'
+        fields = (f'release_no={self.release_no}',
+                  f'date={self.date}',
+                  f'date_modified:{self.date_modified}',
+                  f'respondents={self.respondents}',
+                  f'people={self.people}',
+                  f'organizations={self.organizations}',
+                  f'content={self.content}')
+        return f'[{os.linesep.join(fields)}]'
 
 
 class Reference(models.Model):

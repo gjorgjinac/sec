@@ -5,6 +5,7 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
+import os
 import datetime
 import scrapy
 from scrapy.loader.processors import Join, MapCompose, TakeFirst

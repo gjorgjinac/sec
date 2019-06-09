@@ -21,4 +21,5 @@ class LitigationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Litigation
         fields = (
-        'id', 'release_no', 'date', 'respondents', 'people', 'organizations', 'references', 'titles', 'content')
+            'id', 'release_no', 'date', 'date_modified', 'respondents', 'people', 'organizations', 'references',
+            'titles', 'content')
