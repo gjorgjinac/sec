@@ -90,3 +90,19 @@ ITEM_PIPELINES = {
 
 # We added this, but it doesn't do anything
 # FEED_EXPORT_ENCODING = "utf-8"
+
+
+import os
+import sys
+import django
+
+settings_mining = os.path.abspath(__file__)
+mining_subfolder = os.path.dirname(settings_mining)
+mining_folder = os.path.dirname(mining_subfolder)
+BASE_DIR = os.path.dirname(mining_folder)
+
+print(f'{os.linesep}{BASE_DIR}{os.linesep}')
+
+sys.path.append(BASE_DIR)
+os.environ['DJANGO_SETTINGS_MODULE'] = 'sec.settings'
+django.setup()

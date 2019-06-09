@@ -3,26 +3,27 @@ from litigations.models import Litigation, Reference, Title
 from litigations.serializers import LitigationSerializer, ReferenceSerializer, TitleSerializer
 import datetime
 
+
 class LitigationViewSet(viewsets.ModelViewSet):
-    
-    def string_to_date (self, string_date):
+
+    def string_to_date(self, string_date):
         date_parts = string_date.split("-")
-        return datetime.date(int(date_parts[0]),int(date_parts[1]),int(date_parts)[2])
+        return datetime.date(int(date_parts[0]), int(date_parts[1]), int(date_parts)[2])
 
     queryset = Litigation.objects.all()
     serializer_class = LitigationSerializer
-    
+
     def get_queryset(self):
         relno = self.request.GET.get('relno')
         year = self.request.GET.get('year')
         orgs = self.request.GET.get('organizations')
         people = self.request.GET.get('people')
         respondents = self.request.GET.get('respondents')
-        date1=self.request.GET.get('from')
-        date2=self.request.GET.get('to')
-        litigations_query=Litigation.objects.all()
+        date1 = self.request.GET.get('from')
+        date2 = self.request.GET.get('to')
+        litigations_query = Litigation.objects.all()
         if relno is not None:
-            litigations_query=litigations_query.filter(release_no=relno)
+            litigations_query = litigations_query.filter(release_no=relno)
         if year is not None:
             litigations_query = litigations_query.filter(date__year=year)
         if orgs is not None:
@@ -32,9 +33,9 @@ class LitigationViewSet(viewsets.ModelViewSet):
         if respondents is not None:
             litigations_query = litigations_query.filter(respondents__contains=respondents)
         if date1 is not None:
-            litigations_query = litigations_query.filter(date__gte = self.string_to_date(date1))
+            litigations_query = litigations_query.filter(date__gte=self.string_to_date(date1))
         if date2 is not None:
-            litigations_query = litigations_query.filter(date__lte = self.string_to_date(date2))
+            litigations_query = litigations_query.filter(date__lte=self.string_to_date(date2))
 
         return litigations_query
 

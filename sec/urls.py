@@ -25,13 +25,8 @@ router.register(r'litigations', views.LitigationViewSet, )
 router.register(r'references', views.ReferenceViewSet)
 router.register(r'titles', views.TitleViewSet)
 
-
-urlpatterns = [ path('admin/', admin.site.urls),
-    path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-   path(r'litigations/$', LitigationViewSet),
-
-]
-
-
-
+urlpatterns = [path('admin/', admin.site.urls),
+               path('', include(router.urls)),
+               path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+               path('litigations/', LitigationViewSet),
+               ]

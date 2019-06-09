@@ -10,7 +10,6 @@ from scrapy.loader.processors import Join, MapCompose, TakeFirst
 from w3lib.html import remove_tags
 
 
-
 def relative_to_absolute_url(value):
     if value[0] == '/':
         return "https://www.sec.gov{0}".format(value)
@@ -33,6 +32,7 @@ def filter_releasenos(value):
     else:
         return None
 
+
 def filter_empty(value):
     result = value.replace("\r", "").replace("\n", "").replace(" ", "").replace("\t", "")
     if len(result) > 0:
@@ -49,7 +49,6 @@ class LitigationItem(scrapy.Item):
     people = scrapy.Field()
     organizations = scrapy.Field()
 
-
     release_no = scrapy.Field(
         input_processor=MapCompose(remove_tags, filter_releasenos)
     )
@@ -60,7 +59,7 @@ class LitigationItem(scrapy.Item):
         input_processor=MapCompose(remove_tags, filter_respondents)
     )
     content = scrapy.Field(
-        input_processor=MapCompose(remove_tags,filter_empty),
+        input_processor=MapCompose(remove_tags, filter_empty),
         output_processor=Join("\n")
     )
 
@@ -74,6 +73,10 @@ class LitigationItem(scrapy.Item):
         input_processor=MapCompose(remove_tags)
     )
     h4s = scrapy.Field(
+        input_processor=MapCompose(remove_tags)
+    )
+
+    date_modified = scrapy.Field(
         input_processor=MapCompose(remove_tags)
     )
 
