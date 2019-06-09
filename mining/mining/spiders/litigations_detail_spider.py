@@ -1,21 +1,18 @@
-import os
-import sys
-
 import scrapy
 from scrapy.loader import ItemLoader
-import mining.items
-
-# from mining.pipelines import try_parsing_date
-
 from mining.items import LitigationItem
 import datetime
 
-from datetime import datetime
+
+def remove_characters(s: str, excluded_characters: str) -> str:
+    return s.translate(str.maketrans("", "", excluded_characters))
 
 
 def try_parsing_date(text):
-    text = text.lower().replace(" ", "").replace(".", "").replace(",", "").replace("\n", "").replace("\r", "").replace(
-        "\t", "")
+    excluded_characters = ' .,\n\r\t'
+
+    text = text.lower()
+    text = remove_characters(text, excluded_characters)
     text = list(text)
     if len(text) < 8:
         return None
@@ -31,7 +28,7 @@ def try_parsing_date(text):
     formats = ["%b%d%Y", "%B%d%Y"]
     for fmt in formats:
         try:
-            return datetime.strptime(text, fmt).date()
+            return datetime.datetime.strptime(text, fmt).date()
         except ValueError:
             pass
     return None
@@ -42,16 +39,20 @@ class LitigationsDetailSpider(scrapy.Spider):
 
     def start_requests(self):
         current_year = datetime.datetime.now().year
+
+        # The URL for the current_year is different from all the rest
         request_current_year = scrapy.Request(url='https://www.sec.gov/litigation/litreleases.shtml',
                                               callback=self.parse_master)
         request_current_year.meta["year"] = current_year
         yield request_current_year
 
+        # The range() function is exclusive, thus current_year will NOT be considered
         for year in range(1995, current_year):
-            url = 'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'.format(year=year)
-            request_master = scrapy.Request(url=url, callback=self.parse_master)
-            request_master.meta["year"] = year
-            yield request_master
+            if year in [2016, 1999]:
+                url = f'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'
+                request_master = scrapy.Request(url=url, callback=self.parse_master)
+                request_master.meta["year"] = year
+                yield request_master
 
     def parse_master(self, response):
         year = response.meta.get("year")

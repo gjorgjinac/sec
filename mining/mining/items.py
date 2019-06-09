@@ -5,9 +5,29 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
+import datetime
 import scrapy
 from scrapy.loader.processors import Join, MapCompose, TakeFirst
 from w3lib.html import remove_tags
+
+
+def filter_date_modification(value):
+    if type(value) is not str:
+        return None
+
+    result = value.replace("Modified", "")
+    excluded_characters = ' .,:\n\r\t\\/'
+    result = result.translate(str.maketrans("", "", excluded_characters))
+    formats = ["%b%d%Y", "%B%d%Y", '%m%d%Y']
+    for fmt in formats:
+        try:
+            result = datetime.datetime.strptime(result, fmt).date()
+            print(f'date_modified={result}')
+            return result
+        except ValueError:
+            pass
+    print(f'date_modified={result}')
+    return result
 
 
 def relative_to_absolute_url(value):
@@ -77,7 +97,7 @@ class LitigationItem(scrapy.Item):
     )
 
     date_modified = scrapy.Field(
-        input_processor=MapCompose(remove_tags)
+        input_processor=MapCompose(remove_tags, filter_date_modification)
     )
 
     references_names = scrapy.Field()
