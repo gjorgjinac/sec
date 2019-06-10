@@ -81,7 +81,6 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
         litigation.date = item.get("date")
 
     if item.get("date_modified") is not None:
-        # print(f'type(item.get("date_modified"))={type(item.get("date_modified"))}')
         litigation.date_modified = item.get("date_modified")
 
     if item.get("content") is None:
