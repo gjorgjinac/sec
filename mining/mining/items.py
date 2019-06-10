@@ -12,7 +12,7 @@ from scrapy.loader.processors import Join, MapCompose, TakeFirst
 from w3lib.html import remove_tags
 
 
-def filter_date_modification(value):
+def filter_date_modified(value):
     if type(value) is not str:
         return None
 
@@ -98,7 +98,7 @@ class LitigationItem(scrapy.Item):
     )
 
     date_modified = scrapy.Field(
-        input_processor=MapCompose(remove_tags, filter_date_modification)
+        input_processor=MapCompose(remove_tags, filter_date_modified)
     )
 
     references_names = scrapy.Field()

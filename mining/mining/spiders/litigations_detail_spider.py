@@ -48,7 +48,7 @@ class LitigationsDetailSpider(scrapy.Spider):
 
         # The range() function is exclusive, thus current_year will NOT be considered
         for year in range(1995, current_year):
-            if year in [2016, 1999]:
+            if year in [2016, 1999]:  # []: #
                 url = f'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'
                 request_master = scrapy.Request(url=url, callback=self.parse_master)
                 request_master.meta["year"] = year
@@ -167,7 +167,7 @@ class LitigationsDetailSpider(scrapy.Spider):
         # https://www.sec.gov/litigation/litreleases/lr16155.htm # May 20, 1999
 
         if item.get("date") is not None and item.get("date") >= try_parsing_date("May 20, 1999"):
-            if item.get("date").year >= 2016:  # new site structure
+            if item.get("date").year > 2016:  # new site structure
                 item_loader.add_xpath('h1s', '//h1 | //h1/p | //h1/a')
                 item_loader.add_xpath('h2s', '//h2 | //h2/p | //h2/a')
                 item_loader.add_xpath('h3s', '//h3 | //h3/p | //h3/a')

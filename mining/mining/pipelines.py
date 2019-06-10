@@ -53,8 +53,8 @@ class MiningPipeline(object):
                 item['date_modified'] = item.get('date_modified')[0]
 
             if litigation is None:
-                print(
-                    f'STORING NEW litigation WITH realease_no={item.get("release_no")} AND content={type(item.get("content"))}')
+                print('STORING litigation WITH realease_no={} AND content={}'
+                      .format(item.get("release_no"), item.get("content")))
 
                 # if such a litigation does not exist, store it in the database
                 litigation: Litigation = Litigation()
@@ -88,10 +88,8 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
         print(f'INSIDE litigation WITH realease_no={item.get("release_no")} AND content={type(item.get("content"))}')
 
     if item.get("content") is not None:
-        # TODO: item.get('content') might be too big to be computed
         litigation.content = item.get("content")
-
-        doc = nlp(item.get("content"))
+        doc = nlp(litigation.content)
         litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
                                                    filter(lambda x: x.label_ == 'PERSON', doc.ents)))))
         litigation.organizations = '; '.join(
