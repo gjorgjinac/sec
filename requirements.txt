@@ -11,6 +11,7 @@ cssselect==1.0.3
 cymem==2.0.2
 Django==2.2.2
 djangorestframework==3.9.4
+en-core-web-sm==2.1.0
 hyperlink==19.0.0
 idna==2.8
 incremental==17.5.0
@@ -28,8 +29,10 @@ pycparser==2.19
 PyDispatcher==2.0.5
 PyHamcrest==1.9.0
 pyOpenSSL==19.0.0
+pypiwin32==223
 pyrsistent==0.15.2
 pytz==2019.1
+pywin32==224
 queuelib==1.5.0
 requests==2.22.0
 Scrapy==1.6.0
