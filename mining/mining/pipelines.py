@@ -9,6 +9,7 @@ import os
 import sys
 import django
 import spacy
+import datetime
 
 items_file_path = os.path.abspath(__file__)
 mining_subfolder = os.path.dirname(items_file_path)
@@ -47,8 +48,14 @@ class MiningPipeline(object):
             litigation: Litigation = Litigation.objects.filter(
                 release_no=item.get("release_no")).first()
 
+            if item.get("date_modified") is not None and type(item.get('date_modified')) == list:
+                # item.get('date_modified') is a list() for some reason, so a bit of casting is needed
+                item['date_modified'] = item.get('date_modified')[0]
+
             if litigation is None:
-                print(f'STORING NEW litigation WITH realease_no={item.get("release_no")}')
+                print(
+                    f'STORING NEW litigation WITH realease_no={item.get("release_no")} AND content={type(item.get("content"))}')
+
                 # if such a litigation does not exist, store it in the database
                 litigation: Litigation = Litigation()
                 litigation.release_no = item.get('release_no')
@@ -64,11 +71,26 @@ class MiningPipeline(object):
 
 
 def store_litigation_item(litigation: Litigation, item: LitigationItem):
-    litigation.date = item.get("date")
-    litigation.date_modified = item.get("date_modified")
     litigation.respondents = item.get("respondents")
-    litigation.content = item.get("content")
+
+    if litigation.respondents == '(Intentionally omitted)':
+        litigation.save()
+        return
+
+    if item.get("date") is not None:
+        litigation.date = item.get("date")
+
+    if item.get("date_modified") is not None:
+        # print(f'type(item.get("date_modified"))={type(item.get("date_modified"))}')
+        litigation.date_modified = item.get("date_modified")
+
+    if item.get("content") is None:
+        print(f'INSIDE litigation WITH realease_no={item.get("release_no")} AND content={type(item.get("content"))}')
+
     if item.get("content") is not None:
+        # TODO: item.get('content') might be too big to be computed
+        litigation.content = item.get("content")
+
         doc = nlp(item.get("content"))
         litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
                                                    filter(lambda x: x.label_ == 'PERSON', doc.ents)))))
@@ -85,6 +107,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
             if not h1.replace("\r", "").replace("\n", "") == "":
                 title = Title()
                 title.litigation = litigation
+                title.release_no = litigation.release_no
                 title.priority = 1
                 title.title_text = h1
                 title.save()
@@ -94,6 +117,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
             if not h2.replace("\r", "").replace("\n", "") == "":
                 title = Title()
                 title.litigation = litigation
+                title.release_no = litigation.release_no
                 title.priority = 2
                 title.title_text = h2
                 title.save()
@@ -103,6 +127,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
             if not h3.replace("\r", "").replace("\n", "") == "":
                 title = Title()
                 title.litigation = litigation
+                title.release_no = litigation.release_no
                 title.priority = 3
                 title.title_text = h3
                 title.save()
@@ -113,6 +138,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
         for text, url in zip(item.get("references_names"), item.get("references_urls")):
             reference = Reference()
             reference.litigation = litigation
+            reference.release_no = litigation.release_no
             reference.reference_text = text
             reference.reference = url
             reference.save()
@@ -121,6 +147,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
         for text, url in zip(item.get("references_sidebar_names"), item.get("references_sidebar_urls")):
             reference = Reference()
             reference.litigation = litigation
+            reference.release_no = litigation.release_no
             reference.reference_text = text
             reference.reference = url
             reference.save()

@@ -70,8 +70,4 @@ if __name__ == '__main__':
     # test_contrinue_loop()
     # test_remove_characters()
     # test_parse_date_modified()
-    item = dict()
-    item['date_modified'] = datetime.date.today()
-    past = datetime.date(2007, 12, 5)
-    if past < item.get('date_modified'):
-        print("Modified version!")
+    print(type(None))

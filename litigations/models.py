@@ -34,7 +34,10 @@ class Reference(models.Model):
     objects = models.Manager()
 
     def __str__(self):
-        return f'reference text={self.reference_text}{os.linesep}reference link={self.reference}{os.linesep}release_no={self.release_no}'
+        fields = (f'release_no={self.release_no}',
+                  f'reference text={self.reference_text}',
+                  f'reference link={self.reference}')
+        return f'[{os.linesep.join(fields)}]'
 
 
 def is_positive(value):
@@ -50,4 +53,7 @@ class Title(models.Model):
     objects = models.Manager()
 
     def __str__(self):
-        return f"title={self.title_text}{os.linesep}priority={self.priority}{os.linesep}release_no={self.release_no}"
+        fields = (f'release_no={self.release_no}',
+                  f'title={self.title_text}',
+                  f'priority={self.priority}')
+        return f'[{os.linesep.join(fields)}]'

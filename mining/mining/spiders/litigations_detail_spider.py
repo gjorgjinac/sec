@@ -162,7 +162,7 @@ class LitigationsDetailSpider(scrapy.Spider):
 
         item_loader = ItemLoader(item=LitigationItem(), response=response)
 
-        # 1999, LR-16154 is where a HTML change occurs
+        # 1999, LR-16154 is where a major HTML change occurs
         # https://www.sec.gov/litigation/litreleases/lr16154.txt # May 19, 1999
         # https://www.sec.gov/litigation/litreleases/lr16155.htm # May 20, 1999
 
