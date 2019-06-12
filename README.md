@@ -40,6 +40,12 @@ DATABASES = {
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+To start the crawler, run the following command from the 'sec/mining' directory
+```sh
+scrapy crawl detail
+```
+
 ##### The most important files are:
 - for actual scrapping `sec\mining\mining\spiders`
 - for storing and updating `sec\mining\mining\pipelines.py`
