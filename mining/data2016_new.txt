@@ -1,0 +1,1936 @@
+not in db:
+None
+{'content': None,
+ 'date': None,
+ 'references_names': None,
+ 'references_sidebar_names': None,
+ 'references_sidebar_urls': None,
+ 'references_urls': None,
+ 'release_no': 'LR-23684',
+ 'respondents': '(Intentionally omitted)'}
+release_no: LR-23684
+date:None
+respondents:(Intentionally omitted)
+content:None
+people:None
+orgs:None
+not in db:
+None
+{'content': None,
+ 'date': None,
+ 'references_names': None,
+ 'references_sidebar_names': None,
+ 'references_sidebar_urls': None,
+ 'references_urls': None,
+ 'release_no': 'LR-23629',
+ 'respondents': '(Intentionally omitted)'}
+release_no: LR-23629
+date:None
+respondents:(Intentionally omitted)
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-28
+{'date': datetime.date(2016, 12, 28),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23714 / December 28, 2016',
+         'Securities and Exchange Commission v. AJN Investments, LLC et al., '
+         'Civil Action No. 0:16-cv-63036 (S.D. Fla., December 28, 2016)'],
+ 'h3s': ['Businessman Settles Charges of Fraudulent EB-5 Offering'],
+ 'release_no': 'LR-23714',
+ 'respondents': 'AJN Investments, LLC et al.'}
+release_no: LR-23714
+date:2016-12-28
+respondents:AJN Investments, LLC et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-18
+{'date': datetime.date(2016, 11, 18),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23690 / November 18, 2016',
+         'Securities and Exchange Commission v. Gavin Campion, Civil Action '
+         'No. 16-cv-8940 (S.D.N.Y. filed Nov. 17, 2016)'],
+ 'h3s': ['SEC Charges Former KIT Digital Inc. President with Securities Fraud'],
+ 'release_no': 'LR-23690',
+ 'respondents': 'Gavin Campion'}
+release_no: LR-23690
+date:2016-11-18
+respondents:Gavin Campion
+content:None
+people:None
+orgs:None
+not in db:
+None
+{'content': None,
+ 'date': None,
+ 'references_names': None,
+ 'references_sidebar_names': None,
+ 'references_sidebar_urls': None,
+ 'references_urls': None,
+ 'release_no': 'LR-23569',
+ 'respondents': '(Intentionally omitted)'}
+release_no: LR-23569
+date:None
+respondents:(Intentionally omitted)
+content:None
+people:None
+orgs:None
+not in db:
+None
+{'content': None,
+ 'date': None,
+ 'references_names': None,
+ 'references_sidebar_names': None,
+ 'references_sidebar_urls': None,
+ 'references_urls': None,
+ 'release_no': 'LR-23566',
+ 'respondents': '(Intentionally omitted)'}
+release_no: LR-23566
+date:None
+respondents:(Intentionally omitted)
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-22
+{'date': datetime.date(2016, 11, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23692 / November 22, 2016',
+         'Securities and Exchange Commission v.Capital Financial Partners, LLC '
+         'et al., Civil Action No. 15-cv-11447-IT (D. Mass.)',
+         'Securities and Exchange Commission v. United States of America '
+         'v.Will D. Allen and Susan C. Daub, Civil Action No. 15-cr-10181 (D. '
+         'Mass.)'],
+ 'h3s': ['Defendants in SEC Case Involving Loans to Professional Athletes '
+         'Plead Guilty to Criminal Charges'],
+ 'release_no': 'LR-23692',
+ 'respondents': 'Capital Financial Partners, LLC et al.; Will D. Allen and '
+                'Susan C. Daub'}
+release_no: LR-23692
+date:2016-11-22
+respondents:Capital Financial Partners, LLC et al.; Will D. Allen and Susan C. Daub
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-23
+{'date': datetime.date(2016, 11, 23),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23693 / November 23, 2016',
+         'Securities and Exchange Commission v. Jason Kumpf, Civil Action No. '
+         '16-cv-9033 (S.D.N.Y. filed Nov. 21, 2016)'],
+ 'h3s': ['SEC Charges Former Chief Executive Officer of Microcap Issuer with '
+         'Fraud'],
+ 'release_no': 'LR-23693',
+ 'respondents': 'Jason Kumpf'}
+release_no: LR-23693
+date:2016-11-23
+respondents:Jason Kumpf
+content:None
+people:None
+orgs:None
+not in db:
+None
+{'content': None,
+ 'date': None,
+ 'references_names': None,
+ 'references_sidebar_names': None,
+ 'references_sidebar_urls': None,
+ 'references_urls': None,
+ 'release_no': 'LR-23538',
+ 'respondents': '(Intentionally omitted)'}
+release_no: LR-23538
+date:None
+respondents:(Intentionally omitted)
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-23
+{'date': datetime.date(2016, 11, 23),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23694 / November 23, 2016',
+         'Securities and Exchange Commission v. Matthew Carl Griffin and '
+         'William Daniel Griffin, Civil Action No. 4:16-cv-00902 (E.D. Tex. '
+         'Sherman Division)'],
+ 'h3s': ['SEC Charges Matthew Carl Griffin and William Daniel Griffin with '
+         'Fraud'],
+ 'release_no': 'LR-23694',
+ 'respondents': 'Matthew Carl Griffin and William Daniel Griffin'}
+release_no: LR-23694
+date:2016-11-23
+respondents:Matthew Carl Griffin and William Daniel Griffin
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-30
+{'date': datetime.date(2016, 11, 30),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23696 / November 30, 2016',
+         'Securities and Exchange Commission v. Harrison Katzen, No. '
+         '16-cv-06606 (E.D.N.Y.)'],
+ 'h3s': ['SEC Charges Former Employee of Florida-Based Transfer Agent for Role '
+         'in Offering Fraud'],
+ 'release_no': 'LR-23696',
+ 'respondents': 'Harrison Katzen'}
+release_no: LR-23696
+date:2016-11-30
+respondents:Harrison Katzen
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-22
+{'date': datetime.date(2016, 11, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23691 / November 22, 2016',
+         'Stanley Jonathan Fortenberry (a/k/a S.J. Fortenberry, Jon '
+         'Fortenberry, and Johnny Fortenberry), Securities Act Release No. '
+         '9742 (Apr. 7, 2015)',
+         'United States v. Stanley Jonathan Fortenberry, No. 6:16-cr-21 (N.D. '
+         'Tex. filed August 10, 2016)'],
+ 'h3s': ['Texas Man Pleads Guilty to Obstructing an SEC Administrative '
+         'Proceeding and Other Charges'],
+ 'release_no': 'LR-23691',
+ 'respondents': 'Stanley Jonathan Fortenberry (a/k/a S.J. Fortenberry, Jon '
+                'Fortenberry, and Johnny Fortenberry)'}
+release_no: LR-23691
+date:2016-11-22
+respondents:Stanley Jonathan Fortenberry (a/k/a S.J. Fortenberry, Jon Fortenberry, and Johnny Fortenberry)
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-01
+{'date': datetime.date(2016, 12, 1),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23697 / December 1, 2016',
+         'Securities and Exchange Commission v. Onix Capital LLC and Alberto '
+         'Chang-Rajii, et al., Civil Action No. 16-cv-24678 (S.D.FL, Filed '
+         'November 8, 2016)'],
+ 'h3s': ['SEC Charges Asset Management Fund and Manager'],
+ 'release_no': 'LR-23697',
+ 'respondents': 'Onix Capital LLC and Alberto Chang-Rajii, et al.'}
+release_no: LR-23697
+date:2016-12-01
+respondents:Onix Capital LLC and Alberto Chang-Rajii, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-30
+{'date': datetime.date(2016, 11, 30),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23695 / November 30, 2016',
+         'Securities and Exchange Commission v. Blackbird Capital Partners, '
+         'LLC, et al., Civil Action No. 2:16-cv-01199-TC (D. Utah filed Nov. '
+         '28, 2016)'],
+ 'h3s': ['SEC Obtains Asset Freeze and Other Relief in $3.1 Million Offering '
+         'Fraud'],
+ 'release_no': 'LR-23695',
+ 'respondents': 'Blackbird Capital Partners, LLC, et al.'}
+release_no: LR-23695
+date:2016-11-30
+respondents:Blackbird Capital Partners, LLC, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-02
+{'date': datetime.date(2016, 12, 2),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23698 / December 2, 2016',
+         'Securities and Exchange Commission v. Rafael Antonio Calleja, Jr., '
+         'Civil Action No. 16-CV-24872-KMW (S.D. Fla. filed November 22, '
+         '2016)'],
+ 'h3s': ['SEC Charges Naples, Florida Resident with Misappropriating Investor '
+         'Funds'],
+ 'release_no': 'LR-23698',
+ 'respondents': 'Rafael Antonio Calleja, Jr.'}
+release_no: LR-23698
+date:2016-12-02
+respondents:Rafael Antonio Calleja, Jr.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-05
+{'date': datetime.date(2016, 12, 5),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23699 / December 5, 2016',
+         'Securities and Exchange Commission v. Levi Lindemann, Civil Action '
+         'No. 0:14-cv-04834-PJS-JJK (D. Minn.)',
+         'U.S. v. Lindemann, No. 15-cr-350 (D. Minn.)'],
+ 'h3s': ['Levi Lindemann Sentenced to 74 Months in Prison and Ordered to Pay '
+         '$1.9 million in Restitution'],
+ 'release_no': 'LR-23699',
+ 'respondents': 'Levi Lindemann'}
+release_no: LR-23699
+date:2016-12-05
+respondents:Levi Lindemann
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-07
+{'date': datetime.date(2016, 12, 7),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23700 / December 7, 2016',
+         'Securities and Exchange Commission v. Stifel, Nicolaus &amp; Co., '
+         'Inc., et al., Civil Action No. :11-cv-755 (E.D. Wis. filed Aug. 10, '
+         '2011)'],
+ 'h3s': ['Stifel, Nicolaus and Former Stifel Executive Pay Over $24.5 Million '
+         'and Admit Wrongdoing in Connection with the Sale of Synthetic CDOs '
+         'to Wisconsin School Districts'],
+ 'release_no': 'LR-23700',
+ 'respondents': 'Stifel, Nicolaus &amp; Co., Inc., et al.'}
+release_no: LR-23700
+date:2016-12-07
+respondents:Stifel, Nicolaus &amp; Co., Inc., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-08
+{'date': datetime.date(2016, 12, 8),
+ 'h2s': ['Litigation Release No. 23701/ December 8, 2016',
+         'Securities and Exchange Commission v. Nathanial D. Ponn, Civil '
+         'Action No. 16-10624-GAO (D. Mass. filed March 31, 2016)',
+         'United States v. Nathanial D. Ponn, Criminal Action No. '
+         '1:16-cr-10245-ADB (March 31, 2016) (D. Mass.)'],
+ 'h3s': ['U. S. Securities and Exchange Commission',
+         'Massachusetts Resident Pleads Guilty to Orchestrating a Scheme to '
+         'Defraud Numerous Broker-Dealers'],
+ 'release_no': 'LR-23701',
+ 'respondents': 'Nathanial D. Ponn'}
+release_no: LR-23701
+date:2016-12-08
+respondents:Nathanial D. Ponn
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-13
+{'date': datetime.date(2016, 12, 13),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23702 / December 13, 2016',
+         'Securities and Exchange Commission v. Richard G. Cody, et al., Civil '
+         'Action No. 16-cv-12510-FDS (D. Mass., filed Dec. 12, 2016)'],
+ 'h3s': ['SEC Charges Investment Adviser with Defrauding Massachusetts '
+         'Retirees'],
+ 'release_no': 'LR-23702',
+ 'respondents': 'Richard G. Cody, et al.'}
+release_no: LR-23702
+date:2016-12-13
+respondents:Richard G. Cody, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-20
+{'date': datetime.date(2016, 12, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23703 / December 20, 2016',
+         'Securities and Exchange Commission v. Edward F. Panos, et al., No. '
+         '16-cv-2473 (D.D.C.)'],
+ 'h3s': ['SEC Charges Career Microcap Shell Promoter'],
+ 'release_no': 'LR-23703',
+ 'respondents': 'Edward F. Panos, et al.'}
+release_no: LR-23703
+date:2016-12-20
+respondents:Edward F. Panos, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-20
+{'date': datetime.date(2016, 12, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23704 / December 20, 2016',
+         'Securities and Exchange Commission v. Platinum Management (NY) LLC '
+         'et al., Civil Action No. 16-cv-06848 (E.D.N.Y.)'],
+ 'h3s': ['SEC Charges Platinum Funds and Founder with Defrauding Investors'],
+ 'release_no': 'LR-23704',
+ 'respondents': 'Platinum Management (NY) LLC et al.'}
+release_no: LR-23704
+date:2016-12-20
+respondents:Platinum Management (NY) LLC et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-21
+{'date': datetime.date(2016, 12, 21),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23705 / December 21, 2016',
+         'Securities and Exchange Commission v. Braskem, S.A., Civil Action '
+         'No. 1:16-cv-02488 (D.C. filed December 21, 2016)'],
+ 'h3s': ['SEC Charges Brazil-Based Petrochemical Company with FCPA Violations'],
+ 'release_no': 'LR-23705',
+ 'respondents': 'Braskem, S.A.'}
+release_no: LR-23705
+date:2016-12-21
+respondents:Braskem, S.A.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-21
+{'date': datetime.date(2016, 12, 21),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23706 / December 21, 2016',
+         'United States v. Charles J. Dushek, No. 16-cr-811 (N.D. Ill. filed '
+         'Dec. 14, 2016)',
+         'Securities and Exchange Commission v. Charles J. Dushek, et al., '
+         'Civil Action No. 1:13-cv-3669 (N.D. Ill.)'],
+ 'h3s': ['Illinois Advisory Firm President Indicted for Securities Fraud'],
+ 'release_no': 'LR-23706',
+ 'respondents': 'Charles J. Dushek, et al.'}
+release_no: LR-23706
+date:2016-12-21
+respondents:Charles J. Dushek, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-21
+{'date': datetime.date(2016, 12, 21),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23707 / December 21, 2016',
+         'Securities and Exchange Commission v. John L. Threshie, Jr., No. '
+         '3:16-cv-02103 (D. Conn. filed Dec. 21, 2016)'],
+ 'h3s': ['SEC Charges CEO of Connecticut-Based Company for Offering and '
+         'Selling Unregistered Securities'],
+ 'release_no': 'LR-23707',
+ 'respondents': 'John L. Threshie, Jr.'}
+release_no: LR-23707
+date:2016-12-21
+respondents:John L. Threshie, Jr.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-22
+{'date': datetime.date(2016, 12, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23708 / December 22, 2016',
+         'Securities and Exchange Commission v. Teva Pharmaceutical Industries '
+         'Limited, Civil Action No. 1:16-cv-25298 (S.D. Fla. filed December '
+         '22, 2016)'],
+ 'h3s': ['SEC Charges Israel-Based Pharmaceutical Company with FCPA '
+         'Violations'],
+ 'release_no': 'LR-23708',
+ 'respondents': 'Teva Pharmaceutical Industries Limited'}
+release_no: LR-23708
+date:2016-12-22
+respondents:Teva Pharmaceutical Industries Limited
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-22
+{'date': datetime.date(2016, 12, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23709 / December 22, 2016',
+         'Securities and Exchange Commission v. Chamroonrat, et al., Civil '
+         'Action No. 16-CV-9403-KM-JBC (D.N.J. filed December 21, 2016)'],
+ 'h3s': ['SEC Charges Operators of Fake Day-Trading Firm with Defrauding '
+         'Inexperienced Investors'],
+ 'release_no': 'LR-23709',
+ 'respondents': 'Chamroonrat, et al.'}
+release_no: LR-23709
+date:2016-12-22
+respondents:Chamroonrat, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-22
+{'date': datetime.date(2016, 12, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23710 / December 22, 2016',
+         'Securities and Exchange Commission v. Richard G. Cody, et al., Civil '
+         'Action No. 16-cv-12510-FDS (D. Mass., filed Dec. 12, 2016)'],
+ 'h3s': ['SEC Obtains Preliminary Injunction and Asset Freeze Against '
+         'Investment Adviser for Defrauding Massachusetts Retirees'],
+ 'release_no': 'LR-23710',
+ 'respondents': 'Richard G. Cody, et al.'}
+release_no: LR-23710
+date:2016-12-22
+respondents:Richard G. Cody, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-27
+{'date': datetime.date(2016, 12, 27),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23711 / December 27, 2016',
+         'Securities and Exchange Commission v. Iat Hong, et al., Civil Action '
+         'No. 16 cv 9947 (S.D.N.Y., filed Dec. 27, 2016)'],
+ 'h3s': ['Chinese Traders Charged with Trading On Hacked Nonpublic Information '
+         'Stolen from Two New York-Based Law Firms',
+         'Marks First Time SEC Charges Hacking into Law Firm Computer '
+         'Networks'],
+ 'release_no': 'LR-23711',
+ 'respondents': 'Iat Hong, et al.'}
+release_no: LR-23711
+date:2016-12-27
+respondents:Iat Hong, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-27
+{'date': datetime.date(2016, 12, 27),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23712 / December 27, 2016',
+         'Securities and Exchange Commission v. Emilio Francisco, et al., '
+         'Civil Action No. 8:16-cv-02257-CJC-DFM (Central District of '
+         'California, Complaint filed December 27, 2016)'],
+ 'h3s': ['SEC Charges Lawyer with Stealing Investor Money in Eb-5 Offerings'],
+ 'release_no': 'LR-23712',
+ 'respondents': 'Emilio Francisco, et al.'}
+release_no: LR-23712
+date:2016-12-27
+respondents:Emilio Francisco, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-12-28
+{'date': datetime.date(2016, 12, 28),
+ 'h2s': ['U.S. Securities and Exchange Commission',
+         'Litigation Release No. 23713 / December 28, 2016',
+         'Securities and Exchange Commission v. Interinvest Corporation, Inc. '
+         'et al., Civil Action No. 15-cv-12350 (D. Mass.)'],
+ 'h3s': ['Federal Court Imposes $7.4 Million Judgment Against Massachusetts '
+         'Investment Adviser Who Steered Money to Firms that Paid Him '
+         'Consulting Fees'],
+ 'release_no': 'LR-23713',
+ 'respondents': 'Interinvest Corporation, Inc. et al.'}
+release_no: LR-23713
+date:2016-12-28
+respondents:Interinvest Corporation, Inc. et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-08
+{'date': datetime.date(2016, 11, 8),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23685 / November 8, 2016',
+         'Securities and Exchange Commission v. Jeffrey D. Smith d/b/a Atlanta '
+         'Capital LLC a/d/b/a Capital Funding, Inc., Joseph Carswell d/b/a '
+         'Atlanta Capital LLC a/d/b/a Capital Funding, Inc., and Michael W. '
+         'Fullard, Civil Action No. 1:16-CV-4171- CAP (N.D. Ga., filed Nov. 8, '
+         '2016)'],
+ 'h3s': ['SEC Charges Georgia and South Carolina Residents with Conducting '
+         '"Prime Bank" Style Fraud Scheme'],
+ 'release_no': 'LR-23685',
+ 'respondents': 'Jeffrey D. Smith d/b/a Atlanta Capital LLC a/d/b/a Capital '
+                'Funding, Inc., Joseph Carswell d/b/a Atlanta Capital LLC '
+                'a/d/b/a Capital Funding, Inc., and Michael W. Fullard'}
+release_no: LR-23685
+date:2016-11-08
+respondents:Jeffrey D. Smith d/b/a Atlanta Capital LLC a/d/b/a Capital Funding, Inc., Joseph Carswell d/b/a Atlanta Capital LLC a/d/b/a Capital Funding, Inc., and Michael W. Fullard
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-09
+{'date': datetime.date(2016, 11, 9),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23686 / November 9, 2016',
+         'United States v. Eric McPhail, et al., 1:14-cv-12958 (D. Mass. filed '
+         'July 11, 2014)',
+         'United States v. Eric McPhail and Douglas Parigian, Criminal Action '
+         'No. 14-CR-10201-DJC (D. Mass. filed July 9, 2014)'],
+ 'h3s': ['Court Enters Final Judgment Against Defendant in SEC Insider Trading '
+         'Case Involving Group of Amateur Golfers'],
+ 'release_no': 'LR-23686',
+ 'respondents': 'Eric McPhail and Douglas Parigian'}
+release_no: LR-23686
+date:2016-11-09
+respondents:Eric McPhail and Douglas Parigian
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-09
+{'date': datetime.date(2016, 11, 9),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23687 / November 9, 2016',
+         'Securities and Exchange Commission v. Herbert K. Sudfeld, Civil '
+         'Action No. 2:15-cv-03939-CJR (Eastern District of Pennsylvania)'],
+ 'h3s': ['Judgment Entered Against Defendant in SEC Insider Trading Action'],
+ 'release_no': 'LR-23687',
+ 'respondents': 'Herbert K. Sudfeld'}
+release_no: LR-23687
+date:2016-11-09
+respondents:Herbert K. Sudfeld
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-14
+{'date': datetime.date(2016, 11, 14),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23688 / November 14, 2016',
+         'Securities and Exchange Commission v. Sanjay Valvani and Gordon '
+         'Johnston, Civil Action No. 16 Civ. 4512 (KPF) (S.D.N.Y. filed June '
+         '15, 2016)'],
+ 'h3s': ['SEC Announces Settlement with Former Government Official in Insider '
+         'Trading Case'],
+ 'release_no': 'LR-23688',
+ 'respondents': 'Sanjay Valvani and Gordon Johnston'}
+release_no: LR-23688
+date:2016-11-14
+respondents:Sanjay Valvani and Gordon Johnston
+content:None
+people:None
+orgs:None
+not in db:
+2016-11-16
+{'date': datetime.date(2016, 11, 16),
+ 'h2s': ['Litigation Release No. 23689 / November 16, 2016',
+         'Securities and Exchange Commission v. Devon Archer, et al., No. '
+         '16-cv-3505 (S.D.N.Y. filed May 11, 2016)'],
+ 'h3s': ['SEC Charges Individual Who Headed Fake Investment Manager Used In '
+         'Tribal Bonds Scheme'],
+ 'release_no': 'LR-23689',
+ 'respondents': 'Devon Archer, et al.'}
+release_no: LR-23689
+date:2016-11-16
+respondents:Devon Archer, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-09-30
+{'date': datetime.date(2016, 9, 30),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23670 / September 30, 2016',
+         'Securities and Exchange Commission v. Ikenna Ikokwu, et al., Civil '
+         'Action No. 16-cv-01950 (D.D.C. filed Sept. 30, 2016)'],
+ 'h3s': ['SEC Charges Investment Adviser and His Firms with Recommending Tax '
+         'Lien Investment Scheme to Clients'],
+ 'release_no': 'LR-23670',
+ 'respondents': 'Ikenna Ikokwu, et al.'}
+release_no: LR-23670
+date:2016-09-30
+respondents:Ikenna Ikokwu, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-10-04
+{'date': datetime.date(2016, 10, 4),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23671 / October 4, 2016',
+         'Securities and Exchange Commission v. Richard Weed et al., No. '
+         '1:14-cv-14099 (D. Mass. Nov. 6, 2014)'],
+ 'h3s': ['SEC Obtains Final Judgments Against Two in Scheme to Manipulate '
+         'Stock of Massachusetts-based Sports Ticket Broker'],
+ 'release_no': 'LR-23671',
+ 'respondents': 'Richard Weed et al.'}
+release_no: LR-23671
+date:2016-10-04
+respondents:Richard Weed et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-10-07
+{'date': datetime.date(2016, 10, 7),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23672 / October 7, 2016',
+         'Securities and Exchange Commission v. James T. Bramlette and The '
+         'Pelorus Group, LLC, 16-CV-07493 (C.D. Cal. filed October 6, 2016)'],
+ 'h3s': ['SEC Seeks Court Order Requiring the Pelorus Group and Its Owner to '
+         'Produce Documents'],
+ 'release_no': 'LR-23672',
+ 'respondents': 'James T. Bramlette and The Pelorus Group, LLC'}
+release_no: LR-23672
+date:2016-10-07
+respondents:James T. Bramlette and The Pelorus Group, LLC
+content:None
+people:None
+orgs:None
+not in db:
+2016-08-30
+{'date': datetime.date(2016, 8, 30),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Lit. Release No. 23630 / August 30, 2016',
+         'Securities and Exchange Commission v. Daniel H. Mudd, 11-CIV-9202 '
+         '(PAC) (S.D.N.Y.), complaint filed December 16, 2011'],
+ 'h3s': ['Former Fannie Mae Executive Resolves Subprime and Reduced '
+         'Documentation Disclosure Case with SEC'],
+ 'release_no': 'LR-23630',
+ 'respondents': 'Daniel H. Mudd'}
+release_no: LR-23630
+date:2016-08-30
+respondents:Daniel H. Mudd
+content:None
+people:None
+orgs:None
+not in db:
+2016-07-15
+{'date': datetime.date(2016, 7, 15),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23596 / July 15, 2016',
+         'Securities and Exchange Commission v. Vineet Kalucha et al., Civil '
+         'Action No. 14 CV 3247 (RMB) (S.D.N.Y.)'],
+ 'h3s': ['Investment Fund Manager Sentenced to Fifteen Months in Federal '
+         'Prison for Obstructing SEC Investigation'],
+ 'release_no': 'LR-23596',
+ 'respondents': 'Vineet Kalucha et al.'}
+release_no: LR-23596
+date:2016-07-15
+respondents:Vineet Kalucha et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-06-15
+{'date': datetime.date(2016, 6, 15),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23570 / June 15, 2016',
+         'Securities and Exchange Commission v. Robert Olins, et al., Civil '
+         'Action No. 07-6423 (MMC) (N.D. Cal.)'],
+ 'h3s': ['Former CEO Owing Money in SEC Case Pleads Guilty to Hiding Assets'],
+ 'release_no': 'LR-23570',
+ 'respondents': 'Robert Olins, et al.'}
+release_no: LR-23570
+date:2016-06-15
+respondents:Robert Olins, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-06-01
+{'date': datetime.date(2016, 6, 1),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23551 / June 1, 2016',
+         'Securities and Exchange Commission v. Hope Advisors, LLC and Karen '
+         'Bruton (Defendants) and Just Hope Foundation (Relief Defendants), '
+         'Civil Action No. 1:16-cv-01752-LMM (N.D. Ga.)'],
+ 'h3s': ['SEC Alleges Nashville Firm Schemed to Collect Extra Fees from Hedge '
+         'Funds'],
+ 'release_no': 'LR-23551',
+ 'respondents': 'Hope Advisors, LLC and Karen Bruton (Defendants) and Just '
+                'Hope Foundation (Relief Defendants)'}
+release_no: LR-23551
+date:2016-06-01
+respondents:Hope Advisors, LLC and Karen Bruton (Defendants) and Just Hope Foundation (Relief Defendants)
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-29
+{'date': datetime.date(2016, 3, 29),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23504 / March 29, 2016',
+         'Securities and Exchange Commission v. Tobin Smith, et al., Civil '
+         'Action No. 1:16-cv-00587 (U.S. District Court for the District of '
+         'Columbia)'],
+ 'h3s': ['Former Tv Commentator Settles Penny Stock Fraud Charges'],
+ 'release_no': 'LR-23504',
+ 'respondents': 'Tobin Smith, et al.'}
+release_no: LR-23504
+date:2016-03-29
+respondents:Tobin Smith, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-29
+{'date': datetime.date(2016, 3, 29),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23505 / March 29, 2016',
+         'Securities and Exchange Commission v. Andrew W.W. Caspersen, et al., '
+         'Civil Action No. 16-CV-2249-KMW (S.D.N.Y.)'],
+ 'release_no': 'LR-23505',
+ 'respondents': 'Andrew W.W. Caspersen, et al.'}
+release_no: LR-23505
+date:2016-03-29
+respondents:Andrew W.W. Caspersen, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-06
+{'date': datetime.date(2016, 1, 6),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23441 / January 6, 2016',
+         'United States v. Ronald Lawrence Schuman, Criminal Action No. '
+         '1:14-cr-10053-MLW (D. Mass. Feb. 27, 2014)'],
+ 'h3s': ['Corporate Officer Sentenced for Fraudulent Kickback and Market '
+         'Manipulation Scheme'],
+ 'release_no': 'LR-23441',
+ 'respondents': 'Ronald Lawrence Schuman'}
+release_no: LR-23441
+date:2016-01-06
+respondents:Ronald Lawrence Schuman
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-07
+{'date': datetime.date(2016, 1, 7),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23442 / January 7, 2016',
+         'Securities and Exchange Commission v. Edward Durante, a.k.a. Ted '
+         'Wise, et al., Civil Action No. 15-cv-9874 (S.D.N.Y., filed December '
+         '18, 2015)'],
+ 'h3s': ['SEC Charges Co-Conspirators in Shell Company Fraud'],
+ 'release_no': 'LR-23442',
+ 'respondents': 'Edward Durante, a.k.a. Ted Wise, et al.'}
+release_no: LR-23442
+date:2016-01-07
+respondents:Edward Durante, a.k.a. Ted Wise, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-11
+{'date': datetime.date(2016, 1, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23443 / January 11, 2016',
+         'Securities and Exchange Commission v. Steven H. Davis, et. al, Civil '
+         'Action No. 14-cv-01528 (VEC) (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Judgment Against Steven H. Davis'],
+ 'release_no': 'LR-23443',
+ 'respondents': 'Steven H. Davis, et. al'}
+release_no: LR-23443
+date:2016-01-11
+respondents:Steven H. Davis, et. al
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-11
+{'date': datetime.date(2016, 1, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23444 / January 11, 2016',
+         'United States v. Roger Stanley Bliss, et al., No. 15-484 (D. Utah)',
+         'Securities and Exchange Commission v. Roger S. Bliss, Civil Action '
+         'No. 2:15-CV-0098 (D. Utah)'],
+ 'h3s': ['Alleged Investment Club Fraudster Sentenced to a Year and a Day in '
+         'Federal Prison for Obstructing SEC Case Against Him'],
+ 'release_no': 'LR-23444',
+ 'respondents': 'Roger S. Bliss'}
+release_no: LR-23444
+date:2016-01-11
+respondents:Roger S. Bliss
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-14
+{'date': datetime.date(2016, 1, 14),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23445 / January 14, 2016',
+         'Securities and Exchange Commission v. Bonan Huang, et al., Civil '
+         'Action No. 2:15-cv-00269 (E.D. Pa.)'],
+ 'h3s': ['SEC Obtains Jury Verdict in Its Favor Against Former Capital One '
+         'Employee On Insider Trading Charges'],
+ 'release_no': 'LR-23445',
+ 'respondents': 'Bonan Huang, et al.'}
+release_no: LR-23445
+date:2016-01-14
+respondents:Bonan Huang, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-14
+{'date': datetime.date(2016, 1, 14),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23446 / January 14, 2016',
+         'Securities and Exchange Commission v. Robert B. Crowe, Civil Action '
+         'No. 2:16-CV-36 (S.D. Ohio)'],
+ 'h3s': ['SEC Charges Lobbyist with Participating in Pay-To-Play Scheme'],
+ 'release_no': 'LR-23446',
+ 'respondents': 'Robert B. Crowe'}
+release_no: LR-23446
+date:2016-01-14
+respondents:Robert B. Crowe
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-20
+{'date': datetime.date(2016, 1, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23447 / January 20, 2016',
+         'Securities and Exchange Commission v. Anthony Andrade, et al., Civil '
+         'Action No. 15-cv-231 (District of Rhode Island)'],
+ 'h3s': ['Rhode Island Federal Court Denies Alleged Insider Trading '
+         "Defendants' Motion to Dismss SEC Enforcement Action"],
+ 'release_no': 'LR-23447',
+ 'respondents': 'Anthony Andrade, et al.'}
+release_no: LR-23447
+date:2016-01-20
+respondents:Anthony Andrade, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-20
+{'date': datetime.date(2016, 1, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23448 / January 20, 2016',
+         'Securities and Exchange Commission v. Nicholas Toms, Civil Action '
+         'No. 8:16-cv-80096'],
+ 'h3s': ['Lit. Release No. 23448 / January 20, 2016'],
+ 'release_no': 'LR-23448',
+ 'respondents': 'Nicholas Toms'}
+release_no: LR-23448
+date:2016-01-20
+respondents:Nicholas Toms
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-20
+{'date': datetime.date(2016, 1, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23450 / January 20, 2016',
+         'Securities and Exchange Commission v. TelexFree, Inc. et al., Civil '
+         'Action No. 1:14-cv-11858-NMG (United States District Court for the '
+         'District of Massachusetts)',
+         'Securities and Exchange Commission v. Carlos Nataniel Wanzeler and '
+         'James Matthew Merrill, Civil Action No. 14-MJ-4172-DHH (United '
+         'States District Court for the District of Massachusetts)'],
+ 'h3s': ['Florida Resident Ordered to Jail Based On Violating Court Orders '
+         'Obtained by the SEC'],
+ 'release_no': 'LR-23450',
+ 'respondents': 'TelexFree, Inc. et al., Carlos Nataniel Wanzeler, and James '
+                'Matthew Merrill'}
+release_no: LR-23450
+date:2016-01-20
+respondents:TelexFree, Inc. et al., Carlos Nataniel Wanzeler, and James Matthew Merrill
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-20
+{'date': datetime.date(2016, 1, 20),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23449 / January 20, 2016',
+         'Securities and Exchange Commission, Plaintiff-Appellee v. Stewart A. '
+         'Merkin, Defendant-Appellant, United States Court of Appeals for the '
+         'Eleventh Circuit, Appeal No. 13-13929',
+         'Securities and Exchange Commission v. Stewart A. Merkin, Civil '
+         'Action No. 1:11-cv-23585 (S.D. Fla.)'],
+ 'h3s': ['Court of Appeals Affirms Summary Judgment in Case Against Miami '
+         'Attorney Stewart A. Merkin'],
+ 'release_no': 'LR-23449',
+ 'respondents': 'Stewart A. Merkin'}
+release_no: LR-23449
+date:2016-01-20
+respondents:Stewart A. Merkin
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-21
+{'date': datetime.date(2016, 1, 21),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23451 / January 21, 2016',
+         'Securities and Exchange Commission v. Marquis Properties, LLC, Civil '
+         'Action No. 2:16-cv-00040 (D. Utah)'],
+ 'h3s': ['SEC Charges Utah Real Estate Investment Company and Its Principals '
+         'With Operating a Ponzi Scheme and Obtains Order Freezing Assets'],
+ 'release_no': 'LR-23451',
+ 'respondents': 'Marquis Properties, LLC'}
+release_no: LR-23451
+date:2016-01-21
+respondents:Marquis Properties, LLC
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-22
+{'date': datetime.date(2016, 1, 22),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23452 / January 22, 2016',
+         'Securities and Exchange Commission v. OTC Capital Partners, LLC et '
+         'al, Civil Action No. 1:16-cv-20270 (S.D. Fla., filed January 22, '
+         '2016)'],
+ 'h3s': ['SEC Charges Otc Capital Partners, LLC, Its Principal, and Outside '
+         'Legal Counsel with the Unregistered Offer and Sale of Securities'],
+ 'release_no': 'LR-23452',
+ 'respondents': 'OTC Capital Partners, LLC et al'}
+release_no: LR-23452
+date:2016-01-22
+respondents:OTC Capital Partners, LLC et al
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-27
+{'date': datetime.date(2016, 1, 27),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23453 / January 27, 2016',
+         'Securities and Exchange Commission v. Kenneth W. Crumbley, Civil '
+         'Action No. 3:16-CV-00172 (N.D. Tex.)'],
+ 'h3s': ['SEC Obtains Asset Freeze and Appointment of a Receiver Over Kenneth '
+         'W. Crumbley, Jr. and Sedona Oil and Gas Corporation'],
+ 'release_no': 'LR-23453',
+ 'respondents': 'Kenneth W. Crumbley'}
+release_no: LR-23453
+date:2016-01-27
+respondents:Kenneth W. Crumbley
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-27
+{'date': datetime.date(2016, 1, 27),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23454 / January 27, 2016',
+         'Accounting and Auditing Enforcement Release No. 3734 / January 27, '
+         '2016',
+         'Securities and Exchange Commission v. Andrew M. Miller, Civil Action '
+         'No. 3:15-cv-1461-YGR (LB) (N.D. Cal.)'],
+ 'release_no': 'LR-23454',
+ 'respondents': 'Andrew M. MillerOther Release No.:\xa0AAER-3734'}
+release_no: LR-23454
+date:2016-01-27
+respondents:Andrew M. MillerOther Release No.: AAER-3734
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-27
+{'date': datetime.date(2016, 1, 27),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23455 / January 27, 2016',
+         'Securities and Exchange Commission v. Vlad B. Spivak, et al., Civil '
+         'Action No. 1:15-cv-13704-FDS (D. Mass., filed November 2, 2015)'],
+ 'h3s': ['Court Enters Final Judgment Against Shirmila O. Doddi in Insider '
+         'Trading Action'],
+ 'release_no': 'LR-23455',
+ 'respondents': 'Vlad B. Spivak, et al.'}
+release_no: LR-23455
+date:2016-01-27
+respondents:Vlad B. Spivak, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-01-29
+{'date': datetime.date(2016, 1, 29),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23456 / January 29, 2016',
+         "Securities and Exchange Commission v. J. Patrick O'Neill and Robert "
+         'H. Bray, Civil Action No. 1:14-cv-13381-ADB (District of '
+         'Massachusetts, Complaint filed August 18, 2014)'],
+ 'h3s': ['Defendant in SEC Insider Trading Found Guilty by Federal Jury in '
+         'Massachusetts in a Related Criminal Case'],
+ 'release_no': 'LR-23456',
+ 'respondents': "J. Patrick O'Neill and Robert H. Bray"}
+release_no: LR-23456
+date:2016-01-29
+respondents:J. Patrick O'Neill and Robert H. Bray
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-01
+{'date': datetime.date(2016, 2, 1),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23457 / February 1, 2016',
+         'Securities and Exchange Commission v. eAdGear, Inc., et al., Civil '
+         'Action No. 14-cv-04294-RS (U.S. District Court for the Northern '
+         'District of California)'],
+ 'release_no': 'LR-23457',
+ 'respondents': 'eAdGear, Inc., et al.'}
+release_no: LR-23457
+date:2016-02-01
+respondents:eAdGear, Inc., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-02
+{'date': datetime.date(2016, 2, 2),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23458 / February 2, 2016',
+         'Securities and Exchange Commission v. Dubovoy, et al., Civil Action '
+         'No. 2:15-cv-06076-MCA-MAH (D.N.J., filed August 10, 2015)(amended '
+         'August 23, 2015)'],
+ 'h3s': ['SEC Obtains $4.2 Million from Trader in Hacked News Release Scheme'],
+ 'release_no': 'LR-23458',
+ 'respondents': 'Dubovoy, et al.'}
+release_no: LR-23458
+date:2016-02-02
+respondents:Dubovoy, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-03
+{'date': datetime.date(2016, 2, 3),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23459 / February 3, 2016',
+         'Securities and Exchange Commission v. American Growth Funding II, '
+         'LLC, Portfolio Advisors Alliance, Inc., Ralph C. Johnson, Howard J. '
+         'Allen III, and Kerri L. Wasserman, Civil Action No. 16-cv-00828 '
+         '(S.D.N.Y.)'],
+ 'h3s': ['SEC Charges Lending Company and Brokerage Firm with Fraud'],
+ 'release_no': 'LR-23459',
+ 'respondents': 'American Growth Funding II, LLC, Portfolio Advisors Alliance, '
+                'Inc., Ralph C. Johnson, Howard J. Allen III, and Kerri L. '
+                'Wasserman'}
+release_no: LR-23459
+date:2016-02-03
+respondents:American Growth Funding II, LLC, Portfolio Advisors Alliance, Inc., Ralph C. Johnson, Howard J. Allen III, and Kerri L. Wasserman
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-08
+{'date': datetime.date(2016, 2, 8),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23460 / February 8, 2016',
+         'Securities and Exchange Commission v. Robert M. Munakash, Carlos A. '
+         'Rodriguez, and Marc Winters, Civil Action No. 2:16-cv-00833 (C.D. '
+         'Cal. filed Feb. 5, 2016)'],
+ 'h3s': ['SEC Charges Three Individuals with Insider Trading in Stock of '
+         'E-Commerce Company'],
+ 'release_no': 'LR-23460',
+ 'respondents': 'Robert M. Munakash, Carlos A. Rodriguez, and Marc Winters'}
+release_no: LR-23460
+date:2016-02-08
+respondents:Robert M. Munakash, Carlos A. Rodriguez, and Marc Winters
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-08
+{'date': datetime.date(2016, 2, 8),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23461 / February 8, 2016',
+         'Securities and Exchange Commission v. Herbert K. Sudfeld, Civil '
+         'Action No. 2:15-cv-03939-MAK (Eastern District of Pennsylvania, '
+         'Complaint filed July 16, 2015)'],
+ 'h3s': ['Defendant in SEC Insider Trading Action Found Guilty by Federal Jury '
+         'in Philadelphia in a Related Criminal Case'],
+ 'release_no': 'LR-23461',
+ 'respondents': 'Herbert K. Sudfeld'}
+release_no: LR-23461
+date:2016-02-08
+respondents:Herbert K. Sudfeld
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-08
+{'date': datetime.date(2016, 2, 8),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23462 / February 8, 2016',
+         'Securities and Exchange Commission v. Zev Saltsman, et al., Civil '
+         'Action No. 07-CV- 4370 (NGG) (E.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Final Judgement Against Martin Weisberg'],
+ 'release_no': 'LR-23462',
+ 'respondents': 'Zev Saltsman, et al.'}
+release_no: LR-23462
+date:2016-02-08
+respondents:Zev Saltsman, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-10
+{'date': datetime.date(2016, 2, 10),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23463 / February 10, 2016',
+         'Securities and Exchange Commission v. Moazzam "Mark" Malik and '
+         'American Bridge Investment Group, LLC, d/b/a Wolf Hedge LLC, Civil '
+         'Action No. 15-1025 (RJS) (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Final Judgment Against Moazzam "Mark" Malik and American '
+         'Bridge Investment Group, LLC, d/b/a Wolf Hedge LLC'],
+ 'release_no': 'LR-23463',
+ 'respondents': 'Moazzam "Mark" Malik and American Bridge Investment Group, '
+                'LLC, d/b/a Wolf Hedge LLC'}
+release_no: LR-23463
+date:2016-02-10
+respondents:Moazzam "Mark" Malik and American Bridge Investment Group, LLC, d/b/a Wolf Hedge LLC
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-11
+{'date': datetime.date(2016, 2, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23464 / February 11, 2016',
+         'Securities and Exchange Commission v. Optimum Income Property, LLC, '
+         'Optimum Property Investments, LLC, and Frank E. Lleras, Civil Action '
+         'No. 3:16-cv-00073-GCM (W.D.N.C. filed Feb. 10, 2016)'],
+ 'h3s': ['SEC Charges Charlotte, North Carolina, Resident with Fraudulent '
+         'Investment Scheme Involving the Purchase of Rental Properties'],
+ 'release_no': 'LR-23464',
+ 'respondents': 'Optimum Income Property, LLC, Optimum Property Investments, '
+                'LLC, and Frank E. Lleras'}
+release_no: LR-23464
+date:2016-02-11
+respondents:Optimum Income Property, LLC, Optimum Property Investments, LLC, and Frank E. Lleras
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-11
+{'date': datetime.date(2016, 2, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23465 / February 11, 2016',
+         'Securities and Exchange Commission v. Jilbert Tahmazian, Civil '
+         'Action No. 2:16-CV-954 (C.D. Cal. filed Feb. 11, 2016)'],
+ 'h3s': ['SEC Charges California Attorney with Fraud for Engaging in a Prime '
+         'Bank Scheme'],
+ 'release_no': 'LR-23465',
+ 'respondents': 'Jilbert Tahmazian'}
+release_no: LR-23465
+date:2016-02-11
+respondents:Jilbert Tahmazian
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-12
+{'date': datetime.date(2016, 2, 12),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23466 / February 12, 2016',
+         'Securities and Exchange Commission v. Gregory Ruehle, Civil Action '
+         'No. 3:16-cv-00366-AJB-MDD (S.D. Cal., filed February 11, 2016)'],
+ 'h3s': ['SEC Charges Oceanside Man with Defrauding Investors and Acting as an '
+         'Unregistered Broker-Dealer'],
+ 'release_no': 'LR-23466',
+ 'respondents': 'Gregory Ruehle'}
+release_no: LR-23466
+date:2016-02-12
+respondents:Gregory Ruehle
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-16
+{'date': datetime.date(2016, 2, 16),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23467 / February 16, 2016',
+         'Securities and Exchange Commission v. Wade James Lawrence, Civil '
+         'Action No. 3:16-cv-426-B (N.D. Tex.) (February 16, 2016)'],
+ 'h3s': ['SEC Charges Investment Advisor with Unauthorized Trading and Fraud'],
+ 'release_no': 'LR-23467',
+ 'respondents': 'Wade James Lawrence'}
+release_no: LR-23467
+date:2016-02-16
+respondents:Wade James Lawrence
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-16
+{'date': datetime.date(2016, 2, 16),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23468 / February 16, 2016',
+         'Securities and Exchange Commission v. PV Enterprises, Inc., '
+         'Panagiotis Villiotis, Virtual Sourcing, Inc., Norman Birmingham, '
+         'Mario Faraone and Sweet Challenge, LLC (a/k/a Sweet Challenge, '
+         'Inc.), Civil Action No. 1:16-cv-20542-RNS (S.D. Fla.)'],
+ 'h3s': ['SEC Charges Microcap Companies and Individuals with Registration and '
+         'Antifraud Violations in Connection with Scheme to Make Restricted '
+         'Shares of Companies Freely Tradeable'],
+ 'release_no': 'LR-23468',
+ 'respondents': 'PV Enterprises, Inc., Panagiotis Villiotis, Virtual Sourcing, '
+                'Inc., Norman Birmingham, Mario Faraone and Sweet Challenge, '
+                'LLC (a/k/a Sweet Challenge, Inc.)'}
+release_no: LR-23468
+date:2016-02-16
+respondents:PV Enterprises, Inc., Panagiotis Villiotis, Virtual Sourcing, Inc., Norman Birmingham, Mario Faraone and Sweet Challenge, LLC (a/k/a Sweet Challenge, Inc.)
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-17
+{'date': datetime.date(2016, 2, 17),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23469 / February 17, 2016',
+         'Securities and Exchange Commission v. Michael Affa, Andrew Affa, '
+         'Mitchell Brown, Christopher Putnam, and Christopher Nix, Civil '
+         'Action No. 14-cv-12959 (D. Mass. July 11, 2014)'],
+ 'h3s': ['Defendant in SEC Microcap Manipulation Case Sentenced in Related '
+         'Criminal Matter'],
+ 'release_no': 'LR-23469',
+ 'respondents': 'Michael Affa, Andrew Affa, Mitchell Brown, Christopher '
+                'Putnam, and Christopher Nix'}
+release_no: LR-23469
+date:2016-02-17
+respondents:Michael Affa, Andrew Affa, Mitchell Brown, Christopher Putnam, and Christopher Nix
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-17
+{'date': datetime.date(2016, 2, 17),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23470 / February 17, 2016',
+         'Securities and Exchange Commission v. Randy A. Hamdan and Oracle '
+         'Consultants, LLC, Civil Action No. 2:13-cv-15006-NGE-MKM, United '
+         'States District Court for the Eastern District of Michigan'],
+ 'h3s': ['Michigan Man Agrees to Settle Market Manipulation Case'],
+ 'release_no': 'LR-23470',
+ 'respondents': 'Randy A. Hamdan and Oracle Consultants, LLC'}
+release_no: LR-23470
+date:2016-02-17
+respondents:Randy A. Hamdan and Oracle Consultants, LLC
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-18
+{'date': datetime.date(2016, 2, 18),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23471 / February 18, 2016',
+         'Securities and Exchange Commission v. Zavodchiko, et al., Civil '
+         'Action No. 2:16-cv-00845-MCA-LDW (D.N.J., filed February 17, 2016)'],
+ 'h3s': ['SEC Charges Nine Additional Defendants in Hacked News Release '
+         'Scheme'],
+ 'release_no': 'LR-23471',
+ 'respondents': 'Zavodchiko, et al.'}
+release_no: LR-23471
+date:2016-02-18
+respondents:Zavodchiko, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-18
+{'date': datetime.date(2016, 2, 18),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23472 / February 18, 2016',
+         'Securities and Exchange Commission v. Scott Valente and The ELIV '
+         'Group, LLC, Civil Action No. 14-3974 (VB) (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Final Judgments Against Scott Valente and the Eliv '
+         'Group, LLC'],
+ 'release_no': 'LR-23472',
+ 'respondents': 'Scott Valente and The ELIV Group, LLC'}
+release_no: LR-23472
+date:2016-02-18
+respondents:Scott Valente and The ELIV Group, LLC
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-19
+{'date': datetime.date(2016, 2, 19),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23473 / February 19, 2016',
+         'Securities and Exchange Commission v. Nathan Halsey and TexStar Oil '
+         'Co., Ltd., Civil Action No. 3:16-cv-00450-B (N.D. Tex. filed '
+         'February 17, 2016)'],
+ 'h3s': ['SEC Charges Oil and Gas Company and Founder with Fraud'],
+ 'release_no': 'LR-23473',
+ 'respondents': 'Nathan Halsey and TexStar Oil Co., Ltd.'}
+release_no: LR-23473
+date:2016-02-19
+respondents:Nathan Halsey and TexStar Oil Co., Ltd.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-24
+{'date': datetime.date(2016, 2, 24),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23474 / February 24, 2016',
+         'Securities and Exchange Commission v. Steven Fishoff, et al., Civil '
+         'Action No. 3:15cv03725'],
+ 'h3s': ['Court Approves Partial Settlement with Trader in Case'],
+ 'release_no': 'LR-23474',
+ 'respondents': 'Steven Fishoff, et al.'}
+release_no: LR-23474
+date:2016-02-24
+respondents:Steven Fishoff, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-26
+{'date': datetime.date(2016, 2, 26),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23475 / February 26, 2016',
+         'Securities and Exchange Commission v. Steven H. Davis, et. al, Civil '
+         'Action No. 14-cv-01528 (VEC) (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Judgment Against Francis Canellas'],
+ 'release_no': 'LR-23475',
+ 'respondents': 'Steven H. Davis, et. al'}
+release_no: LR-23475
+date:2016-02-26
+respondents:Steven H. Davis, et. al
+content:None
+people:None
+orgs:None
+not in db:
+2016-02-26
+{'date': datetime.date(2016, 2, 26),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23476 / February 26, 2016',
+         'Securities and Exchange Commission v. Bonan Huang, et al., Civil '
+         'Action No. 2:15-cv-00269 (E.D. Pa.)'],
+ 'h3s': ['SEC Obtains Final Judgment Against Former Capital One Employee for '
+         'Insider Trading'],
+ 'release_no': 'LR-23476',
+ 'respondents': 'Bonan Huang, et al.'}
+release_no: LR-23476
+date:2016-02-26
+respondents:Bonan Huang, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-01
+{'date': datetime.date(2016, 3, 1),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23477 / March 1, 2016',
+         'Securities and Exchange Commission v. Zachary Zwerko and David L. '
+         'Post, Civil Action No. 14-cv-8181-RJS (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Final Judgments Against Zwerko and Post'],
+ 'release_no': 'LR-23477',
+ 'respondents': 'Zachary Zwerko and David L. Post'}
+release_no: LR-23477
+date:2016-03-01
+respondents:Zachary Zwerko and David L. Post
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-02
+{'date': datetime.date(2016, 3, 2),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23478 / March 2, 2016',
+         'Securities and Exchange Commission v. Daryl M. Payton, et al., Civil '
+         'Action No. 14-cv-4644 (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Jury Verdict in Its Favor Against Former Brokers On '
+         'Insider Trading Charges'],
+ 'release_no': 'LR-23478',
+ 'respondents': 'Daryl M. Payton, et al.'}
+release_no: LR-23478
+date:2016-03-02
+respondents:Daryl M. Payton, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-03
+{'date': datetime.date(2016, 3, 3),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23479 / March 3, 2016',
+         'Securities and Exchange Commission v. Fortitude Group, Inc., et al., '
+         'Civil Action No. 1:16-cv-00050-SPB (W.D. Pa. filed Feb. 29, 2016)',
+         'Securities and Exchange Commission v. Strategic Global Investments, '
+         'Inc., et al., Civil Action No. 3:16-cv-00514-H-JLB (S.D. Ca. filed '
+         'Feb. 29, 2016).',
+         'SEC Charges Penny Stock Issuers and Their Principals with Fraud in '
+         'Connection with Marijuana-Related Investments'],
+ 'release_no': 'LR-23479',
+ 'respondents': 'Fortitude Group, Inc., et al.'}
+release_no: LR-23479
+date:2016-03-03
+respondents:Fortitude Group, Inc., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-07
+{'date': datetime.date(2016, 3, 7),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23480 / March 7, 2016',
+         'Securities and Exchange Commission v. Rhode Island Commerce '
+         'Corporation (f/k/a Rhode Island Economic Development Corporation), '
+         'Wells Fargo Securities, LLC, Peter M. Cannava, Keith W. Stokes, and '
+         'James Michael Saul, Civil Action No. 1:16-cv-107 (D. RI., Complaint '
+         'filed March 7, 2016)'],
+ 'h3s': ['SEC Charges Rhode Island Agency and Wells Fargo with Fraud in 38 '
+         'Studios Bond Offering'],
+ 'release_no': 'LR-23480',
+ 'respondents': 'Rhode Island Commerce Corporation (f/k/a Rhode Island '
+                'Economic Development Corporation), Wells Fargo Securities, '
+                'LLC, Peter M. Cannava, Keith W. Stokes, and James Michael '
+                'Saul'}
+release_no: LR-23480
+date:2016-03-07
+respondents:Rhode Island Commerce Corporation (f/k/a Rhode Island Economic Development Corporation), Wells Fargo Securities, LLC, Peter M. Cannava, Keith W. Stokes, and James Michael Saul
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-09
+{'date': datetime.date(2016, 3, 9),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23481 / March 9, 2016',
+         'Securities and Exchange Commission v. Banc de Binary Ltd., et al. '
+         '(United States District Court for the District of Nevada, Civil '
+         'Action No. 2:13-CV-00993-RCJ-VCF)',
+         'Investor Alert:',
+         'Additional Materials:'],
+ 'release_no': 'LR-23481',
+ 'respondents': 'Banc de Binary Ltd., et al.'}
+release_no: LR-23481
+date:2016-03-09
+respondents:Banc de Binary Ltd., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-09
+{'date': datetime.date(2016, 3, 9),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23482 / March 9, 2016',
+         'Securities and Exchange Commission v. Edwin Yoshihiro Fujinaga and '
+         'MRI International, Inc., et al., Civil Action No. 2:13-CV-1658 JCM '
+         '(CWH) (D. Nev.)'],
+ 'h3s': ['Court Denies Motion to Reconsider Summary Judgment Filed by Wife of '
+         "MRI CEO Edwin Fujinaga and Wife's Trust in MRI Ponzi Scheme Case"],
+ 'release_no': 'LR-23482',
+ 'respondents': 'Edwin Yoshihiro Fujinaga and MRI International, Inc., et al.'}
+release_no: LR-23482
+date:2016-03-09
+respondents:Edwin Yoshihiro Fujinaga and MRI International, Inc., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-09
+{'date': datetime.date(2016, 3, 9),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23483 / March 9, 2016',
+         'Securities and Exchange Commission v. Jay Y. Fung (United States '
+         'District Court for the District of New Jersey, Civil Action No. '
+         '16-cv-1332); Securities and Exchange Commission v. Kevin L. Dowd '
+         '(United States District Court for the District of New Jersey, Civil '
+         'Action No. 13-cv-00494)'],
+ 'release_no': 'LR-23483',
+ 'respondents': 'Jay Y. Fung and Kevin L. Dowd'}
+release_no: LR-23483
+date:2016-03-09
+respondents:Jay Y. Fung and Kevin L. Dowd
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-10
+{'date': datetime.date(2016, 3, 10),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23484 / March 10, 2016',
+         'Securities and Exchange Commission v. Reed J. Killion, et al., Civil '
+         'Action No. 16-cv-621 (S.D. Tex. filed Mar. 9, 2016)'],
+ 'h3s': ['SEC:  Tech Company Misled Investors About Key Product'],
+ 'release_no': 'LR-23484',
+ 'respondents': 'Reed J. Killion, et al.'}
+release_no: LR-23484
+date:2016-03-10
+respondents:Reed J. Killion, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-11
+{'date': datetime.date(2016, 3, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23485 / March 11, 2016',
+         'Securities and Exchange Commission v. Aequitas Management, LLC, et '
+         'al., Civil Action No. 3:16-cv-00438-PK (D. Ore. filed Mar. 10, '
+         '2016)'],
+ 'h3s': ['SEC Charges Oregon Investment Group and Three Executives with '
+         'Defrauding Investors'],
+ 'release_no': 'LR-23485',
+ 'respondents': 'Aequitas Management, LLC, et al.'}
+release_no: LR-23485
+date:2016-03-11
+respondents:Aequitas Management, LLC, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-11
+{'date': datetime.date(2016, 3, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23486 / March 11, 2016',
+         'Securities and Exchange Commission v. PTG Capital Partners LTD, et '
+         'al., Civil Action No. 15-CV-04290 (S.D.N.Y.) (LAK)'],
+ 'h3s': ['Bulgarian Defendant in Avon Stock Manipulation Action Arrested in '
+         'Criminal Case'],
+ 'release_no': 'LR-23486',
+ 'respondents': 'PTG Capital Partners LTD, et al.'}
+release_no: LR-23486
+date:2016-03-11
+respondents:PTG Capital Partners LTD, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-11
+{'date': datetime.date(2016, 3, 11),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23487/March 11, 2016',
+         'Securities and Exchange Commission v. BIC Real Estate Development '
+         'Corp. et al., Civil Action No. 1:16-at-00185 (E.D. Cal., filed March '
+         '11, 2016) '],
+ 'h3s': ['SEC: California Businessman Stole Investor Funds and Attempted '
+         'Cover-Up'],
+ 'release_no': 'LR-23487',
+ 'respondents': 'BIC Real Estate Development Corp. et al.'}
+release_no: LR-23487
+date:2016-03-11
+respondents:BIC Real Estate Development Corp. et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-14
+{'date': datetime.date(2016, 3, 14),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23488 / March 14, 2016',
+         'United States v. Daniel Thibeault, Criminal Action No. '
+         '15-cr-10031-LTS (United States District Court for the District of '
+         'Massachusetts)'],
+ 'h3s': ['Massachusetts Investment Adviser Pleads Guilty to Fraud, Obstruction '
+         'of Justice in $15M Fund Fraud'],
+ 'release_no': 'LR-23488',
+ 'respondents': 'Daniel Thibeault'}
+release_no: LR-23488
+date:2016-03-14
+respondents:Daniel Thibeault
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-16
+{'date': datetime.date(2016, 3, 16),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23489 / March 16, 2016',
+         'Securities and Exchange Commission v. Cary Lee Peterson, et al., '
+         'Civil Action No. 2:16-cv-01428-WHW-CLW (D.N.J., filed March 14, '
+         '2016)'],
+ 'h3s': ['SEC Charges CEO of Microcap Company for Touting Bogus "Clean Energy" '
+         'Contracts with Foreign Governments'],
+ 'release_no': 'LR-23489',
+ 'respondents': 'Cary Lee Peterson, et al.'}
+release_no: LR-23489
+date:2016-03-16
+respondents:Cary Lee Peterson, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-16
+{'date': datetime.date(2016, 3, 16),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23490 / March 16, 2016',
+         'Securities and Exchange Commission v. Mark A. Jones, Civil Action '
+         'No. 1:16-cv-10524 (United States District Court for the District of '
+         'Massachusetts)'],
+ 'h3s': ['SEC Charges Operator of Ponzi Scheme That Claimed to Offer "Bridge '
+         'Loans" to Jamaican Businesses'],
+ 'release_no': 'LR-23490',
+ 'respondents': 'Mark A. Jones'}
+release_no: LR-23490
+date:2016-03-16
+respondents:Mark A. Jones
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-16
+{'date': datetime.date(2016, 3, 16),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23491 / March 16, 2016',
+         'Securities and Exchange Commission v. Yue Han, et al., Civil Action '
+         'No. 15 Civ. 9260 (VEC) (S.D.N.Y.)'],
+ 'h3s': ['SEC Obtains Insider Trading Judgment Against Yue Han'],
+ 'release_no': 'LR-23491',
+ 'respondents': 'Yue Han, et al.'}
+release_no: LR-23491
+date:2016-03-16
+respondents:Yue Han, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-18
+{'date': datetime.date(2016, 3, 18),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23492 / March 18, 2016',
+         'Securities and Exchange Commission v. John E. Hardy III, Civil '
+         'Action No. 2:16-cv-00400 (W.D. Wash., March 18, 2016)'],
+ 'h3s': ['Former Microsoft Corporation Finance Manager Agrees to Settle '
+         'Insider Trading Charges'],
+ 'release_no': 'LR-23492',
+ 'respondents': 'John E. Hardy III'}
+release_no: LR-23492
+date:2016-03-18
+respondents:John E. Hardy III
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-21
+{'date': datetime.date(2016, 3, 21),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23493 / March 21, 2016',
+         'Securities and Exchange Commission v. Bruce D. Strebinger, et al., '
+         'Civil Action No. 14-cv-3533 (LMM) (N.D.GA.)'],
+ 'h3s': ['SEC Obtains Final Judgment Against Bruce D. Strebinger'],
+ 'release_no': 'LR-23493',
+ 'respondents': 'Bruce D. Strebinger, et al.'}
+release_no: LR-23493
+date:2016-03-21
+respondents:Bruce D. Strebinger, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-23
+{'date': datetime.date(2016, 3, 23),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23494 / March 23, 2016',
+         'Securities and Exchange Commission v. Gregory G. Jones., Civil '
+         'Action No. 4:15-CV-438-A (NDTX)'],
+ 'h3s': ['Court Orders Nearly $2 Million Judgment from Attorney Who Defrauded '
+         'Investors'],
+ 'release_no': 'LR-23494',
+ 'respondents': 'Gregory G. Jones.'}
+release_no: LR-23494
+date:2016-03-23
+respondents:Gregory G. Jones.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-23
+{'date': datetime.date(2016, 3, 23),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23495 / March 23, 2016',
+         'Securities and Exchange Commission v. Michael Affa, Andrew Affa, '
+         'Mitchell Brown, Christopher Putnam, and Christopher Nix, Civil '
+         'Action No. 14-cv-12959 (D. Mass. July 11, 2014)'],
+ 'h3s': ['Judgments Entered Against Five Defendants in Microcap Manipulation '
+         'Scheme'],
+ 'release_no': 'LR-23495',
+ 'respondents': 'Michael Affa, Andrew Affa, Mitchell Brown, Christopher '
+                'Putnam, and Christopher Nix'}
+release_no: LR-23495
+date:2016-03-23
+respondents:Michael Affa, Andrew Affa, Mitchell Brown, Christopher Putnam, and Christopher Nix
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-23
+{'date': datetime.date(2016, 3, 23),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23496 / March 23, 2016',
+         'Securities and Exchange Commission v. Guy Gentile, Civil Action No. '
+         '16-CV-1619 (JLL) (D.N.J.)'],
+ 'h3s': ['SEC Charges New York Man with Conducting Penny Stock Manipulation '
+         'Schemes'],
+ 'release_no': 'LR-23496',
+ 'respondents': 'Guy Gentile'}
+release_no: LR-23496
+date:2016-03-23
+respondents:Guy Gentile
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-24
+{'date': datetime.date(2016, 3, 24),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23497 / March 24, 2016',
+         'Securities and Exchange Commission v. Arcturus Corporation, et al., '
+         'Civil Action No. 3:13-cv-04861-K (N.D. Tex.)'],
+ 'h3s': ['Promoters of Fraudulent Oil and Gas Investments Found Liable On All '
+         'Claims'],
+ 'release_no': 'LR-23497',
+ 'respondents': 'Arcturus Corporation, et al.'}
+release_no: LR-23497
+date:2016-03-24
+respondents:Arcturus Corporation, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-24
+{'date': datetime.date(2016, 3, 24),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23498 / March 24, 2016',
+         'Securities and Exchange Commission v. Dubovoy, et al., Civil Action '
+         'No. 2:15-cv-06076-MCA-MAH (D.N.J. filed Aug. 10, 2015) (amended Aug. '
+         '23, 2015)'],
+ 'h3s': ['Seven Defendants Agree to Pay Nearly $18 Million in Hacked News '
+         'Release Scheme'],
+ 'release_no': 'LR-23498',
+ 'respondents': 'Dubovoy, et al.'}
+release_no: LR-23498
+date:2016-03-24
+respondents:Dubovoy, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-25
+{'date': datetime.date(2016, 3, 25),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23499 / March 25, 2016',
+         'US v. Gilbert G. Lundstrom, Case No. 4:14-cr-03136 (D. Neb. filed '
+         'Dec. 9, 2014) ',
+         'SEC v. Gilbert G. Lundstrom, et al., Case No. 8:12-cv-00343 (D. Neb. '
+         'filed Sept. 25, 2012)'],
+ 'h3s': ["TierOne Bank's Former Chairman and CEO Sentenced to 11 Years "
+         'Imprisonment'],
+ 'release_no': 'LR-23499',
+ 'respondents': 'Gilbert G. Lundstrom, et al.'}
+release_no: LR-23499
+date:2016-03-25
+respondents:Gilbert G. Lundstrom, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-25
+{'date': datetime.date(2016, 3, 25),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23500 / March 25, 2016',
+         'Securities and Exchange Commission v. James M. Louks and FiberPoP '
+         'Solutions, Inc., Civil Action No. 15-cv-3456 (D. Minn. filed Sept. '
+         '1, 2015)'],
+ 'h3s': ['Court Holds Defendants James M. Louks and Fiberpop Solutions, Inc. '
+         'in Civil Contempt'],
+ 'release_no': 'LR-23500',
+ 'respondents': 'James M. Louks and FiberPoP Solutions, Inc.'}
+release_no: LR-23500
+date:2016-03-25
+respondents:James M. Louks and FiberPoP Solutions, Inc.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-25
+{'date': datetime.date(2016, 3, 25),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23501 / March 25, 2016',
+         'Securities and Exchange Commission v. John V. Bivona, et al., Civil '
+         'Action No. 3:16-cv-1386 (U.S. District Court for the Northern '
+         'District of California)'],
+ 'release_no': 'LR-23501',
+ 'respondents': 'John V. Bivona, et al.'}
+release_no: LR-23501
+date:2016-03-25
+respondents:John V. Bivona, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-29
+{'date': datetime.date(2016, 3, 29),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23502 / March 29, 2016',
+         'Securities and Exchange Commission v. Stanley J. Kowalewski et al., '
+         'Civil Action No. 1:11-CV-56-TCB (N.D. Ga. filed Jan. 6, 2011)',
+         'Securities and Exchange Commission v. Stanley J. Kowalewski et al., '
+         'No. 2:13-CR-45-RWS (N.D. Ga. filed November 19, 2013)'],
+ 'h3s': ["Former Hedge Fund Manager Sentenced to 18 Years' Imprisonment for "
+         'Wire Fraud and Obstructing the SEC'],
+ 'release_no': 'LR-23502',
+ 'respondents': 'Stanley J. Kowalewski et al.'}
+release_no: LR-23502
+date:2016-03-29
+respondents:Stanley J. Kowalewski et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-29
+{'date': datetime.date(2016, 3, 29),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23503 / March 29, 2016',
+         'Securities and Exchange Commission v. AVEO Pharmaceuticals, Inc., et '
+         'al., Civil Action No. 1:16-cv-10607-NMG (D. Mass. March 29, 2016)'],
+ 'release_no': 'LR-23503',
+ 'respondents': 'AVEO Pharmaceuticals, Inc., et al.'}
+release_no: LR-23503
+date:2016-03-29
+respondents:AVEO Pharmaceuticals, Inc., et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-30
+{'date': datetime.date(2016, 3, 30),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23506 / March 30, 2016',
+         'Securities and Exchange Commission v. Daniel Rivera, et al., Civil '
+         'Action No. 3:16-cv-01636-MLC-DEA (D.N.J. March 24, 2016)'],
+ 'h3s': ['SEC Charges Two Brothers with Running Ponzi Scheme Targeting '
+         'Seniors'],
+ 'release_no': 'LR-23506',
+ 'respondents': 'Daniel Rivera, et al.'}
+release_no: LR-23506
+date:2016-03-30
+respondents:Daniel Rivera, et al.
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-31
+{'date': datetime.date(2016, 3, 31),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23507 / March 31, 2016',
+         'Securities and Exchange Commission v. Daniel Ustian, Civil Action '
+         'No. 16-cv-3885 (U.S. District Court for the Northern District of '
+         'Illinois)'],
+ 'release_no': 'LR-23507',
+ 'respondents': 'Daniel Ustian'}
+release_no: LR-23507
+date:2016-03-31
+respondents:Daniel Ustian
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-31
+{'date': datetime.date(2016, 3, 31),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23508 / March 31, 2016',
+         'Securities and Exchange Commission v. Nathanial D. Ponn, Civil '
+         'Action No. 16-10624-GAO (D. Mass. filed March 31, 2016)'],
+ 'release_no': 'LR-23508',
+ 'respondents': 'Nathanial D. Ponn'}
+release_no: LR-23508
+date:2016-03-31
+respondents:Nathanial D. Ponn
+content:None
+people:None
+orgs:None
+not in db:
+2016-03-31
+{'date': datetime.date(2016, 3, 31),
+ 'h2s': ['U.S. SECURITIES AND EXCHANGE COMMISSION',
+         'Litigation Release No. 23509 / March 31, 2016',
+         'Securities and Exchange Commission v. John Scott Clark, Civil Action '
+         'No. 1:16-cv-00040-JNP (D. Utah filed Mar. 31, 2016)',
+         'SEC Charges Repeat Offender with New Investment Scam'],
+ 'release_no': 'LR-23509',
+ 'respondents': 'John Scott Clark'}
+release_no: LR-23509
+date:2016-03-31
+respondents:John Scott Clark
+content:None
+people:None
+orgs:None
