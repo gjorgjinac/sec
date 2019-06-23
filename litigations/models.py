@@ -3,7 +3,21 @@ from django.db import models
 
 
 # Create your models here.
+'''A model contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
+Each model is a Python class that subclasses django.db.models.Model.
+Each attribute of the model represents a database field.
 
+Each field takes a certain set of field-specific arguments (all of them are optional):
+    null - If True, Django will store empty values as NULL in the database. Default is False.
+    blank - If True, the field is allowed to be blank. Default is False.
+    primary_key - If True, this field is the primary key for the model. If you don’t specify primary_key=True for any fields in your model, 
+    Django will automatically add an IntegerField to hold the primary key
+    unique - If True, this field must be unique throughout the table.
+    default - The default value for the field. This can be a value or a callable object. If callable it will be called every time a new object is created.
+    further reading: https://docs.djangoproject.com/en/2.2/topics/db/models/
+    
+Model managers are inherited from abstract base classes and enable query execution. 
+    '''
 class Litigation(models.Model):
     release_no = models.CharField(max_length=15, unique=True)
     date = models.DateField(null=True, blank=True)

@@ -11,7 +11,7 @@ import scrapy
 from scrapy.loader.processors import Join, MapCompose, TakeFirst
 from w3lib.html import remove_tags
 
-
+'''Special parsing for the extracted date of modification'''
 def filter_date_modified(value):
     if type(value) is not str:
         return None
@@ -30,7 +30,7 @@ def filter_date_modified(value):
     print(f'date_modified={result}')
     return result
 
-
+'''Convert relative to absulte urls'''
 def relative_to_absolute_url(value):
     if value[0] == '/':
         return "https://www.sec.gov{0}".format(value)
@@ -42,7 +42,6 @@ def filter_respondents(value):
     result = value.strip('\n').strip('\r').strip(' ').strip(';').replace("\r\n", "")
     result = result.split("See also")[0]
     if len(result) > 2:
-        # result = "{word}-[{length}]".format(word=result, length=len(result))
         return result
 
 
@@ -53,7 +52,7 @@ def filter_releasenos(value):
     else:
         return None
 
-
+'''Filter out the fields with no useful content'''
 def filter_empty(value):
     result = value.replace("\r", "").replace("\n", "").replace(" ", "").replace("\t", "")
     if len(result) > 0:
@@ -65,7 +64,16 @@ def filter_empty(value):
 def fix_unicode(value):
     return value.encode('utf-8')
 
-
+'''The functions of the following classes are used by the item loader to preprocess the 
+values before they are sent to the pipeline. 
+An Item Loader contains one input processor and one output processor for each (item) field. 
+The input processor processes the extracted data as soon as it’s received  and the result 
+of the input processor is collected and kept inside the ItemLoader. After collecting all data,
+the ItemLoader.load_item() method is called to populate and get the populated Item object. 
+That’s when the output processor is called with the data previously collected (and processed using the input processor). 
+The result of the output processor is the final value that gets assigned to the item. 
+further reading: https://docs.scrapy.org/en/latest/topics/loaders.html#input-and-output-processors
+ '''
 class LitigationItem(scrapy.Item):
     people = scrapy.Field()
     organizations = scrapy.Field()

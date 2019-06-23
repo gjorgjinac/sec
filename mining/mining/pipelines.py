@@ -28,6 +28,9 @@ django.setup()
 from litigations.models import Litigation, Title, Reference
 from items import LitigationItem
 
+'''en_core_web_sm is an English multi-task CNN trained on OntoNotes. It assigns context-specific token vectors, 
+POS tags, dependency parse and named entities.
+further reading: https://spacy.io/models/en'''
 nlp = spacy.load('en_core_web_sm')
 
 
@@ -40,23 +43,28 @@ class MiningPipeline(object):
     def __init__(self):
         self.count = 0
 
+    '''After the spider finishes fetching the litigation, it sends it to the pipeline to be written to the database. 
+    We also get a reference to the spider to make sure that its name matches the behavior, which is especially
+    important when we have multiple spiders running in parallel'''
     def process_item(self, item, spider):
 
+        '''We only want the items that are crawled by the 'detail' spider, and the release_no field is required'''
         if spider.name == "detail" and item.get("release_no") is not None:
 
-            # Check if a litigation exists in the database with the same natural key as the current item
+            '''Check if a litigation exists in the database with the same natural key as the current item'''
             litigation: Litigation = Litigation.objects.filter(
                 release_no=item.get("release_no")).first()
 
+            '''If the item has been modified, we update the date_modified field'''
             if item.get("date_modified") is not None and type(item.get('date_modified')) == list:
                 # item.get('date_modified') is a list() for some reason, so a bit of casting is needed
                 item['date_modified'] = item.get('date_modified')[0]
 
+            '''If such a litigation does not exist, store it in the database'''
             if litigation is None:
                 print('STORING litigation WITH realease_no={} AND content={}'
                       .format(item.get("release_no"), item.get("content")))
 
-                # if such a litigation does not exist, store it in the database
                 litigation: Litigation = Litigation()
                 litigation.release_no = item.get('release_no')
                 store_litigation_item(litigation, item)
@@ -69,7 +77,7 @@ class MiningPipeline(object):
                     # update that litigation by overwriting all of its fields
                     store_litigation_item(litigation, item)
 
-
+'''Make necessary checks and store the litigation in the database'''
 def store_litigation_item(litigation: Litigation, item: LitigationItem):
     litigation.respondents = item.get("respondents")
 
@@ -88,6 +96,8 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
 
     if item.get("content") is not None:
         litigation.content = item.get("content")
+        '''Apply natural language processing to extract information about the people and organizations
+        mentioned in the litigation. We store them in the database in one field with a semicolon separator'''
         doc = nlp(litigation.content)
         litigation.people = '; '.join(list(set(map(lambda y: clean_string(y.text),
                                                    filter(lambda x: x.label_ == 'PERSON', doc.ents)))))
@@ -97,7 +107,7 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
         item["organizations"] = litigation.organizations
     litigation.save()
 
-    # Titles
+    '''Construct a new title object and store it in the database.'''
 
     if item.get("h1s") is not None:
         for h1 in item.get("h1s"):
@@ -129,8 +139,10 @@ def store_litigation_item(litigation: Litigation, item: LitigationItem):
                 title.title_text = h3
                 title.save()
 
-    # References
-
+    '''Construct a new reference object and store it in the database.
+    We make no distinction between references extracted from the content and 
+    references extracted from the sidebar.
+    '''
     if item.get("references_names") is not None and item.get("references_urls") is not None:
         for text, url in zip(item.get("references_names"), item.get("references_urls")):
             reference = Reference()
