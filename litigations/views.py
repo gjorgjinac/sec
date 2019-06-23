@@ -6,10 +6,9 @@ import datetime
 
 schema_view = get_swagger_view(title='SEC Litigations API')
 
-
-
+''' A method that parses strings in the format DD-MM-YYYY and returns a date object '''
 class LitigationViewSet(viewsets.ModelViewSet):
-    '''A method that parses strings in the format DD-MM-YYYY and returns a date object'''
+
     def string_to_date(self, string_date):
         date_parts = string_date.split("-")
         return datetime.date(int(date_parts[0]), int(date_parts[1]), int(date_parts)[2])
@@ -17,10 +16,11 @@ class LitigationViewSet(viewsets.ModelViewSet):
     queryset = Litigation.objects.all()
     serializer_class = LitigationSerializer
 
+    '''We check whether a value for each field was specified as a parameter in the request and
+           add filters for the existing values to the query. Note that the query is not executed at this point,
+           and we do not keep all of the litigations in memory'''
     def get_queryset(self):
-        '''We check whether a value for each field was specified as a parameter in the request and
-        add filters for the existing values to the query. Note that the query is not executed at this point,
-        and we do not keep all of the litigations in memory'''
+
         release_no = self.request.GET.get('release_no')
         year = self.request.GET.get('year')
         orgs = self.request.GET.get('organizations')
