@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e185703c-88b4-4e83-ac47-7540d72ce36a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sec/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,6 +84,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1262">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mining/mining/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,11 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litigations/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sec/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-600">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="e#301#310#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,8 +186,8 @@
       <find>litigations.models.</find>
       <find>try</find>
       <find>save</find>
-      <find />
-      <find />
+      <find>parse date in format</find>
+      <find>A method that parses</find>
     </findStrings>
     <replaceStrings>
       <replace>litigations_query</replace>
@@ -225,9 +247,9 @@
         <option value="$PROJECT_DIR$/litigations/models.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sec/urls.py" />
-        <option value="$PROJECT_DIR$/sec/settings.py" />
         <option value="$PROJECT_DIR$/mining/mining/spiders/litigations_detail_spider.py" />
         <option value="$PROJECT_DIR$/litigations/views.py" />
+        <option value="$PROJECT_DIR$/sec/settings.py" />
       </list>
     </option>
   </component>
@@ -532,9 +554,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1688988" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32784185" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23214285" side_tool="true" visible="true" weight="0.37030995" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32626426" />
@@ -542,7 +563,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32784185" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49925596" weight="0.32626426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.76785713" visible="true" weight="0.37030995" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.76785713" visible="true" weight="0.37030995" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985119" weight="0.3964111" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sec/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -811,16 +825,6 @@
           <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
-          <folding>
-            <element signature="e#301#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,6 +873,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1262">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#301#310#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

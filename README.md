@@ -27,6 +27,8 @@ The most important files are:
 In this project, the django submodule called 'litigations' is used to enable a connection to a PostgreSQL database where the crawled litigations are stored.
 Furthermore, we use the [Django REST Framework](https://www.django-rest-framework.org/) to build a REST api. The main building blocks are the models, views, and serializers, which are defined in the corresponding files in the 'sec/litigations' directory. [api root](http://194.149.136.108:8000/)
 
+[Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/) An API documentation generator for Swagger UI and Django
+
 #### spaCy
 [SpaCy](https://spacy.io/) is an open-source software library for advanced Natural Language Processing. It features convolutional neural network models for part-of-speech tagging, dependency parsing and named entity recognition, as well as API improvements around training and updating models, and constructing custom processing pipelines.
 
