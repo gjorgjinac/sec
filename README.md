@@ -11,10 +11,10 @@
 Django is a Python-based free and open-source web framework, which follows the model-template-view (MTV) architectural pattern. Django's primary goal is to ease the creation of complex, database-driven websites.
 In this project, the django submodule called 'litigations' is used to enable a connection to a PostgreSQL database where the crawled litigations are stored.
 
-####[Django REST Framework](https://www.django-rest-framework.org/)
+#### [Django REST Framework](https://www.django-rest-framework.org/)
 Django REST Framework is used to build a REST api. The main building blocks are the models, views, and serializers, which are defined in the corresponding files in the 'sec/litigations' directory. [api root](http://194.149.136.108:8000/)
 
-####[Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/)
+#### [Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/)
 Django REST Swagger is an API documentation generator for Swagger UI and Django
 
 #### [Scrapy](https://scrapy.org/)
@@ -33,8 +33,8 @@ The most important files are:
 - for actual scrapping `sec\mining\mining\spiders`
 - for storing and updating `sec\mining\mining\pipelines.py`
 
-#### spaCy
-[SpaCy](https://spacy.io/) is an open-source software library for advanced Natural Language Processing. It features convolutional neural network models for part-of-speech tagging, dependency parsing and named entity recognition, as well as API improvements around training and updating models, and constructing custom processing pipelines.
+#### [spaCy](https://spacy.io/)
+Spacy is an open-source software library for advanced Natural Language Processing. It features convolutional neural network models for part-of-speech tagging, dependency parsing and named entity recognition, as well as API improvements around training and updating models, and constructing custom processing pipelines.
 
 In this project, we use spaCy's en_core_web_sm, an English multi-task CNN trained on OntoNotes, to detect the people and organization entities that are mentioned in each litigation. This is done in the pipeline file (`sec\mining\mining\pipelines.py`), before each item is stored in the database.
 
