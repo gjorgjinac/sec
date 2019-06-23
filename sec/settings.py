@@ -35,9 +35,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework_swagger',
     'rest_framework',
     'litigations',
     'mining',
+
 ]
 
 MIDDLEWARE = [
@@ -77,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'OPTIONS': {
-            'options': '-c search_path=litigations'
+            'options': '-c search_path=litigations' #search path <- schema name
         },
-        'NAME': 'few_litigations',
+        'NAME': 'few_litigations', #database name
         'USER': 'postgres',
         'PASSWORD': 'password',
         'HOST': 'localhost',

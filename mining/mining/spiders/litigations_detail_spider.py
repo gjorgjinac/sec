@@ -75,13 +75,12 @@ class LitigationsDetailSpider(scrapy.Spider):
 
         ''' For every year in the range [1995, current_year), the URLs are in a consistent format'''
         for year in range(1995, current_year):
-            if year in [2016, 1999]:
-                url = f'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'
-                request_master = scrapy.Request(url=url, callback=self.parse_master)
-                '''We can add additional data in the request in the form of key-value pairs. 
-                We add the year since we need it in order to decide how the content should be parsed'''
-                request_master.meta["year"] = year
-                yield request_master
+            url = f'https://www.sec.gov/litigation/litreleases/litrelarchive/litarchive{year}.shtml'
+            request_master = scrapy.Request(url=url, callback=self.parse_master)
+            '''We can add additional data in the request in the form of key-value pairs. 
+            We add the year since we need it in order to decide how the content should be parsed'''
+            request_master.meta["year"] = year
+            yield request_master
 
     ''' The callback to the first round of requests, which is supposed to extract the release number, date, and 
      the respondents for each litigation'''

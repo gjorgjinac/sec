@@ -1,7 +1,11 @@
 from rest_framework import viewsets, generics
 from litigations.models import Litigation, Reference, Title
 from litigations.serializers import LitigationSerializer, ReferenceSerializer, TitleSerializer
+from rest_framework_swagger.views import get_swagger_view
 import datetime
+
+schema_view = get_swagger_view(title='SEC Litigations API')
+
 
 
 class LitigationViewSet(viewsets.ModelViewSet):

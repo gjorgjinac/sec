@@ -2,7 +2,6 @@ import os
 from django.db import models
 
 
-# Create your models here.
 '''A model contains the essential fields and behaviors of the data you’re storing. Generally, each model maps to a single database table.
 Each model is a Python class that subclasses django.db.models.Model.
 Each attribute of the model represents a database field.
