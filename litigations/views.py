@@ -11,7 +11,7 @@ class LitigationViewSet(viewsets.ModelViewSet):
 
     def string_to_date(self, string_date):
         date_parts = string_date.split("-")
-        return datetime.date(int(date_parts[0]), int(date_parts[1]), int(date_parts)[2])
+        return datetime.date(int(date_parts[0]), int(date_parts[1]), int(date_parts[2]))
     '''Building a query that will fetch the litigations from the database'''
     queryset = Litigation.objects.all()
     serializer_class = LitigationSerializer

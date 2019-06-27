@@ -12,7 +12,12 @@ Django is a Python-based free and open-source web framework, which follows the m
 In this project, the django submodule called 'litigations' is used to enable a connection to a PostgreSQL database where the crawled litigations are stored.
 
 #### [Django REST Framework](https://www.django-rest-framework.org/)
-Django REST Framework is used to build a REST api. The main building blocks are the models, views, and serializers, which are defined in the corresponding files in the 'sec/litigations' directory. [api root](http://194.149.136.108:8000/)
+Django REST Framework is used to build a REST api. The main building blocks are the models, views, and serializers, which are defined in the corresponding files in the 'sec/litigations' directory. 
+The rest service can be accessed at: http://194.149.136.108:8000/
+The litigations can be filtered by adding the following query parameters: year, release_no, organizations, people, respondents
+For example, the following link will return all of the litigations from 2018, where a person named Thomas and an organization named Walters were involved.
+http://194.149.136.108:8000/litigations/?year=2018&people=Thomas&organizations=Walters
+
 
 #### [Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/)
 Django REST Swagger is an API documentation generator for Swagger UI and Django
@@ -89,6 +94,10 @@ AUTOTHROTTLE_DEBUG = False
 
 Further instructions that are not specific to this project can be found in the documentation of
 scrapy (https://scrapy.org/) and django (https://www.djangoproject.com/).
+
+
+### What we've learned
+We've learned about the intricacies of web crawlers and the challenges posed by legacy websites. We've gained experience in working with the django framework, using convolutional neural networks for natural language processing, setting up a rest service, and scheduling tasks using the unix shell.
 
 -- dillinger.io was used to make the README.md
 
