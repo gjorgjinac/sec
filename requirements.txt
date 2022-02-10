@@ -9,7 +9,7 @@ constantly==15.1.0
 cryptography==2.7
 cssselect==1.0.3
 cymem==2.0.2
-Django==2.2.2
+Django==2.2.27
 djangorestframework==3.9.4
 en-core-web-sm==2.1.0
 hyperlink==19.0.0
